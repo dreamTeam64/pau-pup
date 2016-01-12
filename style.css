@@ -11,10 +11,11 @@ body{
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-size: 18px;
+	text-decoration: none;
 }
 
 #menu{
-	text-align: center;
+	text-align: right;
 	position: relative;
 	height: 200px;
 	background-image: linear-gradient(to bottom right, rgba(32, 166, 255, 0.92) 0%, #FF7B7B 100%);
@@ -23,7 +24,7 @@ body{
 }
 
 #menu ul{
-	padding-top: 25px;
+	padding-top: 60px;
 	padding-bottom: 25px;
 	margin: 0px;
 }
@@ -36,8 +37,13 @@ body{
 
 #menu li a{
 	text-decoration: none;
+	color: white;
 	font-weight: bold;
 	padding: 5px 10px;
+}
+
+#menu li a:hover{
+	text-decoration: underline;
 }
 
 #wrapper{
