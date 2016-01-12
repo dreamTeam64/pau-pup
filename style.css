@@ -60,18 +60,25 @@ p {text-indent:30px}
 
 #wrapper{
 	position: relative;
-	padding-left: 60px;
 	padding-top: 30px;
 
 }
 
+.section{
+	padding-left: 25%;
+	padding-right: 25%;
+	font-size:20px;
+	font-family:proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
 #presentation{
 	text-align: center;
+	position: relative;	
+}
+
+#profileEnt{
+	text-align: center;
 	position: relative;
-	font-family:proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	font-size:20px;
-	width: 500px;
-	padding-left: 25%;
 }
 
 
