@@ -9,7 +9,7 @@
 	<div id="global">
 		<div id="menu">
 			<ul>
-				<li><a href="#">Accueuil</a></li>
+				<li><a href="#">Acceuil</a></li>
 				<li><a href="#">Méthodes</a></li>
 				<li><a href="#">PortFolio</a></li>
 				<li><a href="#">Contact</a></li>
