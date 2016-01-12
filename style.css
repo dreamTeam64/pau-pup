@@ -3,6 +3,9 @@ body{
 	margin: 0px;
 }
 
+	
+p {text-indent:30px}
+
 #global{
 	position: absolute;
 	height: 100%;
@@ -25,12 +28,12 @@ body{
 
 #Logo{
 	position: fixed;
-	top: 60px;
+	top: 70px;
 	left: 60px;
 }
 
 #menu ul{
-	padding-top: 60px;
+	padding-top: 70px;
 	padding-bottom: 25px;
 	margin: 0px;
 }
@@ -54,11 +57,16 @@ body{
 
 #wrapper{
 	position: relative;
-	padding: 30px;
-
+	padding-left: 60px;
+	padding-top: 30px;
 }
 
-
+#presentation{
+	font-family:proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size:20px;
+	padding-right: 400px;
+	padding-left: 400px;
+}
 
 
 #footer{

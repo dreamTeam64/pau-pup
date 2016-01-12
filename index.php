@@ -20,7 +20,18 @@
 		</div>
 
 		<div id="wrapper">
-			Vous cherchez des solutions pour augmenter les performances de votre entreprise ?
+			<div id="presentation">
+				<center>Des Services De Qualités ! </center>
+				<br>
+				<p>
+					Qui mieux que des étudiants passionné par leur formation peuvent mettre à profit leurs connaissances ?
+				</p>
+				<br>
+				<p>
+					L'économie et l'Informatique sont les points fort ne notre "Organisation" ! Nous sommes aptes à vous
+					aider dans la communication, et à vous épauler sur le côté créatif !.
+				</p>
+			</div>
 		</div>
 
 		<div id="footer">
