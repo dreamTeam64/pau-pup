@@ -13,7 +13,7 @@
 			</div>
 			<ul>
 				<li><a href="#">Acceuil</a></li>
-				<li><a href="#">Méthodes</a></li>
+				<li><a href="#">Equipe</a></li>
 				<li><a href="#">PortFolio</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
@@ -30,8 +30,13 @@
 				<p>
 					L'économie et l'Informatique sont les points forts de notre "Organisation" ! Nous sommes aptes à vous
 					aider dans la communication, et à vous épauler sur le côté créatif !
+
+					<img src="img/js.png">
 				</p>
 			</div>
+			
+				
+			
 		</div>
 
 		<div id="footer">

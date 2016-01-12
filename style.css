@@ -76,8 +76,8 @@ p {text-indent:30px}
 
 
 #footer{
-	position: absolute;
-	bottom: 0px;
+	position: relative;
+	
 	width: 100%;
 	height: 100px;
 	background-image: linear-gradient(to top right, rgba(32, 166, 255, 0.92) 0%, #FF7B7B 100%);
