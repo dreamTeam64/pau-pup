@@ -9,7 +9,7 @@
 	<div id="global">
 		<div id="menu">
 			<div id="Logo">
-				<strong>Pau'pup</strong>
+				<li><a href="#"><strong>Pau'pup</strong></a></li>
 			</div>
 			<ul>
 				<li><a href="#">Acceuil</a></li>
