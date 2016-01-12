@@ -67,7 +67,7 @@ body{
 	bottom: 0px;
 	width: 100%;
 	height: 100px;
-	background-image: linear-gradient(to bottom right, #000000 0%, #612929 100%);
+	background-image: linear-gradient(to top right, rgba(32, 166, 255, 0.92) 0%, #FF7B7B 100%);
 	text-align: center;
 	color: white;
 }
