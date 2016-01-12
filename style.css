@@ -1,0 +1,52 @@
+body{
+	display: block;
+	margin: 0px;
+}
+
+#menu{
+	text-align: center;
+	position: relative;
+	height: 200px;
+}
+
+#menu ul{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #999;
+
+}
+
+#menu li{
+	display: inline;
+	margin: 10px;
+	list-style: none;
+}
+
+#menu li a{
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+#wrapper{
+	position: relative;
+	padding: 30px;
+
+}
+
+
+
+#global{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: grey;
+}
+
+#footer{
+	
+}
+
+.bouton{
+
+}
