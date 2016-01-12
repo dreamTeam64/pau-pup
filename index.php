@@ -8,6 +8,9 @@
 <body>
 	<div id="global">
 		<div id="menu">
+			<div id="Logo">
+				<strong>Pau'pup</strong>
+			</div>
 			<ul>
 				<li><a href="#">Acceuil</a></li>
 				<li><a href="#">Méthodes</a></li>

@@ -14,7 +14,15 @@ body{
 }
 
 #menu{
-	text-align: center;
+	position: relative;
+	height: 200px;
+	background-image: linear-gradient(to bottom right, rgba(32, 166, 255, 0.92) 0%, #FF7B7B 100%);
+	margin: 0px;
+	box-shadow: 10px 1px 20px #888888;
+}
+
+#menu Logo{
+	text-align: left;
 	position: relative;
 	height: 200px;
 	background-image: linear-gradient(to bottom right, rgba(32, 166, 255, 0.92) 0%, #FF7B7B 100%);
@@ -23,6 +31,7 @@ body{
 }
 
 #menu ul{
+	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	margin: 0px;
