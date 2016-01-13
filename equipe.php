@@ -14,7 +14,7 @@
 				<li><a href="#"><strong>Pau'pup</strong></a></li>
 			</div>
 			<ul>
-				<li><a href="index.php">Acceuil</a></li>
+				<li><a href="index.php">Accueil</a></li>
 				<li><a href="equipe.php">Equipe</a></li>
 				<li><a href="#">PortFolio</a></li>
 				<li><a href="#">Contact</a></li>

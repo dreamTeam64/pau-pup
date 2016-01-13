@@ -21,7 +21,7 @@
 			<ul>
 				<li>
 					<a href="index.php">
-  							<span class="glyphicon glyphicon-home" aria-hidden="false"> Accueuil</span>
+  							<span class="glyphicon glyphicon-home" aria-hidden="false"> Accueil</span>
 					</a>
 				</li>
 				<li>
@@ -82,6 +82,7 @@
 				<p>
 					<center><h3>Profil Recherché</h3></center>
 				</p>
+				<br>
 				<p style="inherit">
 					<b><i>Votre identité</i></b>
 					<ul>
@@ -89,7 +90,8 @@
 						<li>Particulier (ex: photographe,musicien ...)</li>
 						<li>Association</li>
 					</ul>
-
+				</p>
+				<p style="inherit">
 					<b><i>Lieux</i></b>
 					<ul>
 						<li>Pau</li>

@@ -54,10 +54,6 @@ p {text-indent:30px}
 	padding: 5px 10px;
 }
 
-#menu li a:hover{
-	text-decoration: underline;
-}
-
 #wrapper{
 	position: relative;
 	padding-top: 30px;
@@ -79,6 +75,10 @@ p {text-indent:30px}
 #profileEnt{
 	text-align: center;
 	position: relative;
+}
+
+#profileEnt ul li{
+	list-style: none;
 }
 
 
