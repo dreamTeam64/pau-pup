@@ -19,10 +19,26 @@
 				<li><a href="#"><strong>Pau'pup</strong></a></li>
 			</div>
 			<ul>
-				<li><a href="index.php">Acceuil</a></li>
-				<li><a href="equipe.php">Equipe</a></li>
-				<li><a href="#">PortFolio</a></li>
-				<li><a href="#">Contact</a></li>
+				<li>
+					<a href="index.php">
+  							<span class="glyphicon glyphicon-home" aria-hidden="false"> Accueuil</span>
+					</a>
+				</li>
+				<li>
+					<a href="equipe.php">
+  							<span class="glyphicon glyphicon-user" aria-hidden="true"> Equipe</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+  							<span class="glyphicon glyphicon-pencil" aria-hidden="true"> Méthode</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+  							<span class="glyphicon glyphicon-send" aria-hidden="true"> Contact</span>
+					</a>
+				</li>
 			</ul>
 		</div>
 
