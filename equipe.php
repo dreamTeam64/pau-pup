@@ -45,13 +45,46 @@
 			</ul>
 		</div>
 		<div id="wrapper">
-			<div ng-controller="mbre">
-				<li ng-repeat="mb in members">
-					{{mb}}
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+				Pierre
+			</button>
 
-				</li>
-					
-				
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel">Fontaine Pierre (20 ans)</h4>
+						</div>
+
+						<div class="modal-body">
+							<p>
+								Etudiant en Informatique à Pau (UPPA), je souhaite pousser mes études le plus loin possible
+								dans cette branche qui me passionne tant !
+							</p>
+							<p>
+								Je tente de develloper sur différents axes :
+								<ul>
+									<li>Robotique (drone)</li>
+									<li>Applications mobiles</li>
+									<li>Application Web</li>
+									<li>Interface Client (JAVA)</li>
+								</ul>
+							</p>
+							<p>
+								Je suis aussi un fan de grand fan de Projets, les contraintes sont autant de barrière à 
+								franchir (tant qu'elles sont franchisables hein ?!)
+							</p>
+							
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
