@@ -121,3 +121,9 @@ p {text-indent:30px}
 	list-style: none;
 	padding: inherit;
 }
+
+.inlineBox{
+	display: inline-block;
+	width: 300px;
+	padding: 30px;
+}
