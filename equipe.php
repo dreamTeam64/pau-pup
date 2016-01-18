@@ -45,16 +45,20 @@
 			</ul>
 		</div>
 		<div id="wrapper">
+			<div class="section">
+				<center><h1>Prenez le temps de nous connaitre !</h1></center>
+				<br>
+			</div>
 			<div id="membres" class="section">
 				<ul>
-					<li><a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pi.jpg" class="img-circle" height="120px" width="100px"></a></li>
-					<li><a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pi.jpg" class="img-circle" height="120px" width="100px"></a></li>
-					<li><a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pi.jpg" class="img-circle" height="120px" width="100px"></a></li>
-					<li><a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pi.jpg" class="img-circle" height="120px" width="100px"></a></li>
+					<li><a href="#" data-toggle="modal" data-target="#pierre"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
+					<li><a href="#" data-toggle="modal" data-target="#francois"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
+					<li><a href="#" data-toggle="modal" data-target="#ludovic"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
+					<li><a href="#" data-toggle="modal" data-target="#guillaume"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
 				</ul>
 					
 				<!-- Modal -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal fade" id="pierre" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
@@ -81,6 +85,64 @@
 									franchir (tant qu'elles sont franchisables hein ?!)
 								</p>
 								
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="francois" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Francois Thoraval (age)</h4>
+							</div>
+
+							<div class="modal-body">
+								du texte.
+								
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="ludovic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Bouzom Ludovic (age)</h4>
+							</div>
+
+							<div class="modal-body">
+								La vie de ludo
+							</div>
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="guillaume" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Gourrat Guillaume (age)</h4>
+							</div>
+
+							<div class="modal-body">
+								Du texte								
 							</div>
 
 							<div class="modal-footer">
