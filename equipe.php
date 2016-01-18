@@ -49,7 +49,7 @@
 				<center><h1>Prenez le temps de nous connaitre !</h1></center>
 				<br>
 			</div>
-			<div id="membres" class="section">
+			<div id="membres">
 				<div class="inlineBox">
 					<ul>
 						<li><a href="#" data-toggle="modal" data-target="#pierre"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
@@ -102,6 +102,12 @@
 					<p>
 						Vous y verrez en chacun de nous des compétences différentes et alors vous comprendrez que ce sont les "ingrédients" pour reussir la bonne "Vinaigrette" ... en 
 						d'autres termes un Projet !
+					</p>
+					<p>
+						Bien sur il faut garder en tête que nous ne sommes pas des professionnels, mais plutot des amateurs averti ayant l'objectif de devenir professionnel.
+					</p><br>
+					<p>
+						<span class="glyphicon glyphicon-console" aria-hidden="true"> <kbd>sudo read cv !</kbd></span>
 					</p>
 				</div>
 				

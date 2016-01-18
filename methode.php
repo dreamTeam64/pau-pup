@@ -45,44 +45,51 @@
 			</ul>
 		</div>
 		<div id="wrapper">
-		test des bootstrap
+			<div class="section">
+				<center><h1>Au commencement ...</h1></center>
 
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				</ol>
+				<h2>Notre première rencontre !</h2>
+				<p>
+					Nous nous réunissons autour d'une table et nous nous posons les bonnes questions !
+					Nous définirons au mieux :
+					<ul>
+						<li>Les besoins</li>
+						<li>Le périmetre du site</li>
+						<li>Les objectifs</li>
+						<li>Les délais</li>
+					</ul>
+				</p>
+				<p>
+					Nous ferons ensuite une réflexion à toute l'organisation et vous validerai ou non les choix proposés. Il en dépendra de 3 exigences qui sont "cout", "Délai" et "qualité".
+				</p>
 
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<img src="img/pi.jpg" alt="pierre au colisée" height="100%">
-						<div class="carousel-caption">
-							Wesh Nigaa
-						</div>
-					</div>
+				<h2>Arborescence du Site</h2>
+				<p>
+					Nous vous proposerons différentes arborescences élaboré durant la Deuxième semaine qui répondent aux mieux au contrainte de "périmètre".
+				</p>
 
-					<div class="item">
-						<img src="..." alt="...">
-						<div class="carousel-caption">
-							...
-						</div>
-					</div>
-				...
-				</div>
+				<h2>Maquettage</h2>
 
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
+				<h2>Charte Redactionnelle</h2>
+
+				<h2>Les contenus</h2>
+
+				<h2>Créations des pages principales</h2>
+
+				<h2>Création et livraison des autres pages</h2>
+
+				<h2>Controles et validation du site</h2>
+
+				<h2>Intégration et tests sur différents navigateurs</h2>
+
+				<h2>Mise en ligne</h2>
+
+				<h2>Référencement sur les moteurs de recherche</h2>
+
+
+
 			</div>
+			
 		</div>
 		<div id="footer">
 			copyright © 2016
