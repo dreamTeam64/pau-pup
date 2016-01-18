@@ -36,12 +36,12 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="methode.php">
   							<span class="glyphicon glyphicon-pencil" aria-hidden="true"> Méthode</span>
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="contact.php">
   							<span class="glyphicon glyphicon-send" aria-hidden="true"> Contact</span>
 					</a>
 				</li>
@@ -63,8 +63,14 @@
 			<hr color="black" width="300px">
 			<div id="solution" class="section">
 				<center><h3>Nos Solutions !</h3></center>
+				<br>
+				<p>
+					L'interet de nous choisir pour vous faire connaitre sur le Web est que nous faisons des sites léger
+					et donc rapide à charger ! Le temps c'est de l'argent et on le sait !
+				</p>
 				<p>
 					Nous tendons à manipuler les dernières technologies pour adapter aux mieux nos solutions !
+				</p>
 					<br><br>
 					<div class="slideshow">
 					
@@ -79,7 +85,6 @@
 								<img src="img/css.png" height="100" alt="" width="100px" height="auto">
 							</li>
 						</ul>
-
 					</div>
 				</p>
 				<p>

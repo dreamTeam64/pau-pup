@@ -112,6 +112,12 @@ p {text-indent:30px}
 	color: white;
 }
 
-.bouton{
-
+#membres{
+	position: relative;
+	text-align: center;
+	text-align: left;
+}
+#membres ul li{
+	list-style: none;
+	padding: inherit;
 }
