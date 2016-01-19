@@ -114,12 +114,22 @@ p {text-indent:30px}
 
 #membres{
 	position: relative;
-	text-align: center;
+	margin: auto;
 	text-align: left;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
 }
+
+#membres ul{
+	margin: 0px;
+	padding: 0px;
+}
+
 #membres ul li{
 	list-style: none;
 	padding: inherit;
+	padding: 0px;
 }
 
 .inlineBox{
