@@ -22,7 +22,7 @@
 	<div id="global">
 		<div id="menu">
 			<div id="Logo">
-				<img src="img/LOGO.png" width="250px">
+				<a href="index.php"><img src="img/LOGO.png" width="250px"></a>
 			</div>
 			<ul>
 				<li>
