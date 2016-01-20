@@ -19,7 +19,7 @@
 	<div id="global">
 		<div id="menu">
 			<div id="Logo">
-				<li><a href="#"><strong>Pau'pup</strong></a></li>
+				<img src="img/LOGO.png" width="250px">
 			</div>
 			<ul>
 				<li>

@@ -19,7 +19,7 @@
 	<div id="global">
 		<div id="menu">
 			<div id="Logo">
-				<li><a href="#"><strong>Pau'pup</strong></a></li>
+				<img src="img/LOGO.png" width="250px">
 			</div>
 			<ul>
 				<li>
@@ -68,6 +68,10 @@
 								</div>
 
 								<div class="modal-body">
+									<p>
+										Devellopeur "back end", je m'occupe de la partie caché de "l'iceberg" ! Tous ce qui est
+										base de donnée, serveur, c'est moi !
+									</p>
 									<p>
 										Etudiant en Informatique à Pau (UPPA), je souhaite pousser mes études le plus loin possible
 										dans cette branche qui me passionne tant !
@@ -121,7 +125,7 @@
 							</div>
 
 							<div class="modal-body">
-								du texte.
+								Develloper "front end".
 								
 							</div>
 

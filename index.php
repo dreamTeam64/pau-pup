@@ -22,7 +22,7 @@
 	<div id="global">
 		<div id="menu">
 			<div id="Logo">
-				<li><a href="#"><strong>Pau'pup</strong></a></li>
+				<img src="img/LOGO.png" width="250px">
 			</div>
 			<ul>
 				<li>
@@ -51,7 +51,7 @@
 		<div id="wrapper">
 			<center><h3><span class="glyphicon glyphicon-warning-sign" aria-hidden="false"> Site actuellement en chantier ! Mais nous progressons vite !</h3></span></center>
 			<div class="progress">
-				<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+				<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
 			</div>
 			<div id="presentation" class="section">
 				<center><h3>Des Services De Qualité ! </h3></center>
@@ -113,6 +113,7 @@
 						<li>Professionnel (ex: PME)</li>
 						<li>Particulier (ex: photographe,musicien ...)</li>
 						<li>Association</li>
+						<li>Organisateur d'évènements</li>
 					</ul>
 				</p>
 				<p style="inherit">

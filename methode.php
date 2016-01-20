@@ -19,7 +19,7 @@
 	<div id="global">
 		<div id="menu">
 			<div id="Logo">
-				<li><a href="#"><strong>Pau'pup</strong></a></li>
+				<img src="img/LOGO.png" width="250px">
 			</div>
 			<ul>
 				<li>
@@ -60,7 +60,9 @@
 					</ul>
 				</p>
 				<p>
-					Nous ferons ensuite une réflexion à toute l'organisation et vous validerai ou non les choix proposés. Il en dépendra de 3 exigences qui sont "cout", "Délai" et "qualité".
+					Nous ferons ensuite une réflexion à toute l'organisation et vous validerai ou non les choix proposés. Il en dépendra de 3 exigences qui sont <span class="label label-success">cout</span>, <span class="label label-success">délai</span> et <span class="label label-success">qualité</span>.
+
+					
 				</p>
 
 				<h2>Arborescence du Site</h2>
