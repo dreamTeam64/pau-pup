@@ -60,14 +60,14 @@
 					</ul>
 				</p>
 				<p>
-					Nous ferons ensuite une réflexion à toute l'organisation et vous validerai ou non les choix proposés. Il en dépendra de 3 exigences qui sont <span class="label label-success">cout</span>, <span class="label label-success">délai</span> et <span class="label label-success">qualité</span>.
+					Nous ferons ensuite une réflexion à toute l'organisation et vous validerez ou non les choix proposés. Il en dépendra de 3 exigences qui sont <span class="label label-success">cout</span>, <span class="label label-success">délai</span> et <span class="label label-success">qualité</span>.
 
 					
 				</p>
 
 				<h2>Arborescence du Site</h2>
 				<p>
-					Nous vous proposerons différentes arborescences élaboré durant la Deuxième semaine qui répondent aux mieux au contrainte de "périmètre".
+					Nous vous proposerons différentes arborescences élaborées durant la Deuxième semaine qui répondent aux mieux au contrainte de "périmètre".
 				</p>
 
 				<h2>Maquettage</h2>
