@@ -67,29 +67,47 @@
 
 				<h2>Arborescence du Site</h2>
 				<p>
-					Nous vous proposerons différentes arborescences élaborées durant la Deuxième semaine qui répondent aux mieux au contrainte de "périmètre".
+					Nous vous proposerons différentes arborescences élaborées durant la Deuxième semaine qui répondront aux mieux au contraintes de "périmètre".
 				</p>
 
 				<h2>Maquettage</h2>
-
+				<p>
+					Cet à cet instant que nous définirons le placement des différents éléments sur la page (photos,textes,liens ...)
+				</p>
 				<h2>Charte Redactionnelle</h2>
-
+				<p>
+					La police de caractère et la taille de cet dernière reflèteront l'image de votre entreprise.
+				</p>
 				<h2>Les contenus</h2>
-
+				<p>
+					Un site sans contenus c'est comme une partie de foot sans ballon ! A ce moment vous nous donnerez ce que vous voulez voir sur votre site !
+				</p>
 				<h2>Créations des pages principales</h2>
-
+				<p>
+					C'est le moment ou la magie commence, la page principal se met en forme et nous ferons en sorte qu'elle vous plaise !
+				</p>
 				<h2>Création et livraison des autres pages</h2>
-
+				<p>
+					Viens ensuite la création des pages annexes, puis on poffine le reste !
+				</p>
 				<h2>Controles et validation du site</h2>
-
+				<p>
+					On vérifie si tout y est et si le produit correspond aux attentes !
+				</p>
 				<h2>Intégration et tests sur différents navigateurs</h2>
-
+				<p>
+					Derniers petits réglage avant le levé de rideau !
+				</p>
 				<h2>Mise en ligne</h2>
-
+				<p>
+					La votre site est hébérgé et quiquonque possédent le lien peut y acceder !
+				</p>
 				<h2>Référencement sur les moteurs de recherche</h2>
+				<p>
+					L'accès aux sites se fait à 99% par le biais des moteurs de recherche, il est donc capital de l'indexer chez Google, Yahoo ...
+				</p>
 
-
-
+				<center><h1>FIN</h1></center>
 			</div>
 			
 		</div>
