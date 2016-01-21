@@ -45,7 +45,45 @@
 			</ul>
 		</div>
 		<div id="wrapper">
-
+			<div class="section">
+				<h1><center><strong>Vous souhaitez nous contacter ?</strong></center></h1>
+				<br>
+				<p>Veuillez remplir ce formulaire afin que nous puissions vous répondre.</p>
+				<br>
+				<h2><center>Formulaire de contact</center></h2>
+				<br>
+				<br>
+				<h3>Informations de contact:</h3>
+				<form>
+					<div class="Form">
+						<label for="Email">Email<font color="red">*</font></label>
+						<input type="Email" class="form-control" id="InputEmail" placeholder="@">
+						<br>
+						<label for="Surname">Nom</label>
+						<input type="Surname" class="form-control" id="InputSurname" placeholder="Nom">
+						<br>
+						<label for="Name">Prénom</label>
+						<input type="Name" class="form-control" id="InputName" placeholder="Prénom">
+						<br>
+						<label for="People">Vous êtes ?<font color="red">*</font></label>
+						<select id="Menu" class="form-control">
+							<option>Entreprise</option>
+							<option>Artiste</option>
+							<option>Autre</option>
+						</select>
+						<br>
+						<br>
+					</div>
+					<div class="FormText">
+						<label for="Description">Description: </label>
+						<textarea class="form-control" rows="10" placeholder="Décrivez votre projet afin que nous puissions vous répondre le plus rapidement possible"></textarea>
+					</div>
+					<br>
+					<div class="Button">
+						<button type="Submit" class="btn btn-default">Envoyer votre demande</button>
+					</div>
+				</form>
+			</div>
 		</div>
 		<div id="footer">
 			copyright © 2016
