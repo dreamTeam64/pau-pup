@@ -54,16 +54,16 @@
 				<br>
 				<br>
 				<h3>Informations de contact:</h3>
-				<form>
+				<form method="post" action="forms/traitement.php">
 					<div class="Form">
 						<label for="Email">Email<font color="red">*</font></label>
-						<input type="Email" class="form-control" id="InputEmail" placeholder="@">
+						<input type="Email" name="mail" class="form-control" id="InputEmail" required="required" placeholder="@">
 						<br>
 						<label for="Surname">Nom</label>
-						<input type="Surname" class="form-control" id="InputSurname" placeholder="Nom">
+						<input type="Surname" name="nom" class="form-control" id="InputSurname" required="required" placeholder="Nom">
 						<br>
 						<label for="Name">Prénom</label>
-						<input type="Name" class="form-control" id="InputName" placeholder="Prénom">
+						<input type="Name" name="prenom" class="form-control" id="InputName" required="required" placeholder="Prénom">
 						<br>
 						<label for="People">Vous êtes ?<font color="red">*</font></label>
 						<select id="Menu" class="form-control">
@@ -76,7 +76,7 @@
 					</div>
 					<div class="FormText">
 						<label for="Description">Description: </label>
-						<textarea class="form-control" rows="10" placeholder="Décrivez votre projet afin que nous puissions vous répondre le plus rapidement possible"></textarea>
+						<textarea class="form-control" rows="10" required="required" placeholder="Décrivez votre projet afin que nous puissions vous répondre le plus rapidement possible"></textarea>
 					</div>
 					<br>
 					<div class="Button">
