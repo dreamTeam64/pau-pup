@@ -12,17 +12,19 @@
 	$raison = $_POST['raison'];
 	$text = $_POST['text'];
 
-	$description = mysql_real_escape_string($text);
+	$description = $text;
 
-	$insertion = $bdd ->prepare('INSERT INTO contact(mail,nom,prenom,raison,description) VALUES (?,?,?,?,?) ');
+	$insertion = $bdd ->prepare('INSERT INTO contact(mail,nom,prenom,raison,description) VALUES (:mail,:nom,:prenom,:raison,:description) ');
 
 	$insertion->execute(array(
-            $mail,
-            $nom,
-            $prenom,
-            $raison,
-            $description
+            'mail' => $mail,
+            'nom' => $nom,
+            'prenom' => $prenom,
+            'raison' => $raison,
+            'description' => $description
         ));
-	header('Location: ../index.php');
-	exit();
+
+	echo $mail;
+
+	
 	?>

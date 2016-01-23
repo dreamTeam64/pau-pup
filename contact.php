@@ -59,14 +59,14 @@
 						<label for="Email">Email<font color="red">*</font></label>
 						<input type="Email" name="mail" class="form-control" id="InputEmail" required="required" placeholder="@">
 						<br>
-						<label for="Surname">Nom</label>
+						<label for="Surname">Nom<font color="red">*</font></label>
 						<input type="Surname" name="nom" class="form-control" id="InputSurname" required="required" placeholder="Nom">
 						<br>
-						<label for="Name">Prénom</label>
+						<label for="Name">Prénom<font color="red">*</font></label>
 						<input type="Name" name="prenom" class="form-control" id="InputName" required="required" placeholder="Prénom">
 						<br>
 						<label for="People">Vous êtes ?<font color="red">*</font></label>
-						<select id="Menu" class="form-control">
+						<select id="Menu" name="raison" class="form-control">
 							<option>Entreprise</option>
 							<option>Artiste</option>
 							<option>Autre</option>
@@ -75,8 +75,8 @@
 						<br>
 					</div>
 					<div class="FormText">
-						<label for="Description">Description: </label>
-						<textarea class="form-control" rows="10" required="required" placeholder="Décrivez votre projet afin que nous puissions vous répondre le plus rapidement possible"></textarea>
+						<label for="Description">Description: <font color="red">*</font></label>
+						<textarea class="form-control" name="text" rows="10" required="required" placeholder="Décrivez votre projet afin que nous puissions vous répondre le plus rapidement possible"></textarea>
 					</div>
 					<br>
 					<div class="Button">
