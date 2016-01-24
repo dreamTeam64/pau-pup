@@ -48,7 +48,7 @@
 			<div class="section">
 				<center><h1>Au commencement ...</h1></center>
 
-				<h2>Notre première rencontre ! <span class="label label-info">semaine 1</span></h2>
+				<h2>Notre première rencontre ! </h2><span class="label label-info">semaine 1</span>
 				<p>
 					Nous nous réunissons autour d'une table et nous nous posons les bonnes questions !
 					Nous définirons au mieux :
@@ -65,44 +65,44 @@
 					
 				</p>
 
-				<h2>Arborescence du Site <span class="label label-info">semaine 2</span></h2></h2>
+				<h2>Arborescence du Site </h2><span class="label label-info">semaine 2</span>
 				<p>
 					Nous vous proposerons différentes arborescences élaborées durant la Deuxième semaine qui répondront aux mieux au contraintes de "périmètre".
 				</p>
 
-				<h2>Maquettage <span class="label label-info">semaine 3</span></h2></h2>
+				<h2>Maquettage </h2><span class="label label-info">semaine 3</span>
 				<p>
 					Cet à cet instant que nous définirons le placement des différents éléments sur la page (photos,textes,liens ...)
 				</p>
-				<h2>Charte Redactionnelle <span class="label label-info">semaine 4</span></h2></h2>
+				<h2>Charte Redactionnelle </h2><span class="label label-info">semaine 4</span>
 				<p>
 					La police de caractère et la taille de cet dernière reflèteront l'image de votre entreprise.
 				</p>
-				<h2>Les contenus <span class="label label-info">semaine 5</span></h2></h2>
+				<h2>Les contenus </h2><span class="label label-info">semaine 5</span>
 				<p>
 					Un site sans contenus c'est comme une partie de foot sans ballon ! A ce moment vous nous donnerez ce que vous voulez voir sur votre site !
 				</p>
-				<h2>Créations des pages principales <span class="label label-info">semaine 6</span></h2></h2>
+				<h2>Créations des pages principales </h2><span class="label label-info">semaine 6</span>
 				<p>
 					C'est le moment ou la magie commence, la page principal se met en forme et nous ferons en sorte qu'elle vous plaise !
 				</p>
-				<h2>Création et livraison des autres pages <span class="label label-info">semaine 7</span></h2></h2>
+				<h2>Création et livraison des autres pages </h2><span class="label label-info">semaine 7</span>
 				<p>
 					Viens ensuite la création des pages annexes, puis on poffine le reste !
 				</p>
-				<h2>Controles et validation du site <span class="label label-info">semaine 8</span></h2></h2>
+				<h2>Controles et validation du site </h2><span class="label label-info">semaine 8</span>
 				<p>
 					On vérifie si tout y est et si le produit correspond aux attentes !
 				</p>
-				<h2>Intégration et tests sur différents navigateurs <span class="label label-info">semaine 9</span></h2></h2>
+				<h2>Intégration et tests sur différents navigateurs </h2><span class="label label-info">semaine 9</span>
 				<p>
 					Derniers petits réglage avant le levé de rideau !
 				</p>
-				<h2>Mise en ligne <span class="label label-info">semaine 10</span></h2></h2>
+				<h2>Mise en ligne </h2><span class="label label-info">semaine 10</span>
 				<p>
 					La votre site est hébérgé et quiquonque possédent le lien peut y acceder !
 				</p>
-				<h2>Référencement sur les moteurs de recherche <span class="label label-info">semaine 10</span></h2></h2>
+				<h2>Référencement sur les moteurs de recherche </h2><span class="label label-info">semaine 10</span>
 				<p>
 					L'accès aux sites se fait à 99% par le biais des moteurs de recherche, il est donc capital de l'indexer chez Google, Yahoo ...
 				</p>
