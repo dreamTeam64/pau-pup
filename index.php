@@ -51,7 +51,7 @@
 		<div id="wrapper">
 			<center><h3><span class="glyphicon glyphicon-warning-sign" aria-hidden="false"> Site actuellement en chantier ! Mais nous progressons vite !</h3></span></center>
 			<div class="progress">
-				<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+				<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
 			</div>
 			<div id="presentation" class="section">
 				<center><h3>Des Services De Qualité ! </h3></center>
@@ -133,6 +133,8 @@
 
 		<div id="footer">
 			copyright © 2016. Made with <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
+			<br>
+			<a href="connexion.php">intranet</a>
 		</div>
 	</div>
 </body>
