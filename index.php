@@ -88,6 +88,12 @@
 							<li>
 								<img src="img/css.png" height="100" alt="" width="100px" height="auto">
 							</li>
+							<li>
+								<img src="img/boot.png" height="100" alt="" width="100px" height="auto">
+							</li>
+							<li>
+								<img src="img/git.png" height="100" alt="" width="100px" height="auto">
+							</li>
 						</ul>
 					</div>
 				</p>
