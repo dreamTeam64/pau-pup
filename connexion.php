@@ -54,16 +54,16 @@
 				<br />
 			</div>
 			<div class="section" id="form">
-				<form class="form-horizontal">
+				<form class="form-horizontal" cible="#">
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-5">
-							<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+							<input type="email" class="form-control" id="inputEmail3" placeholder="Email" required="required">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-5">
-							<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+							<input type="password" class="form-control" id="inputPassword3" placeholder="Password" required="required">
 						</div>
 					</div>
 					
