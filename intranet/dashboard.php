@@ -1,7 +1,7 @@
 <?php 
 	session_start();
 	if (!isset($_SESSION['pseudo'])) {
-		header('Location: ../espace_cours.php?error=1');
+		header('Location: /index.php');
 		exit();
 	}
 ?>
@@ -27,6 +27,6 @@
 </head>
 <body>
 	<div id="global">
-
+	DASHBOARD
 	</div>
 </body>
