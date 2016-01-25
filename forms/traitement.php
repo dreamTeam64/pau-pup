@@ -24,7 +24,7 @@
             'description' => $description
         ));
 
-	header('Location: /contact.php');
+	header('Location: /contact.php?res=1');
 	exit;
 
 	

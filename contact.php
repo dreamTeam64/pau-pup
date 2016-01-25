@@ -46,6 +46,14 @@
 		</div>
 		<div id="wrapper">
 			<div class="section">
+				<?php 
+					if (isset($_GET['res'])) {
+						if ($_GET['res'] == 1) {
+							echo "<center><strong>Le formulaire à bien été envoyé !</strong></center>";
+						}
+					}
+				?>
+				
 				<h1><center><strong>Vous souhaitez nous contacter ?</strong></center></h1>
 				<br>
 				<p>Veuillez remplir ce formulaire afin que nous puissions vous répondre.</p>
