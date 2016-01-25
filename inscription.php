@@ -47,41 +47,46 @@
 				</li>
 			</ul>
 		</div>
-
 		<div id="wrapper">
 			<div class="section">
-				<h1><font color="red">Connexion:</font></h1>
+				<h1><font color="red">Inscription:</font></h1>
 				<br />
 			</div>
 			<div class="section" id="form">
 				<form class="form-horizontal">
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-5">
-							<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+							<input type="email" class="form-control" id="inputEmail3" placeholder="Email*">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-5">
-							<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+							<input type="password" class="form-control" id="inputPassword3" placeholder="Password*">
 						</div>
 					</div>
-					
+
 					<div class="form-group">
+						<div class="col-sm-offset-1 col-sm-5">
+							<input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Password*">
+						</div>
+					</div>
+					<div>
+						<div class="col-sm-offset-1 col-sm-5">
+							<h4><font color="blue">Choisissez une image de profil:</font></h4>
+						</div>
 						<div class="col-sm-offset-1 col-sm-10">
-							<div class="checkbox">
-								<label><input type="checkbox"> Remember me</label>
-							</div>
+							<label class="file"><input type="file" id="file"><span class="file-custom"></span></label>
 						</div>
 					</div>
 				</form>
-				<form class="form-inline">
-					<div class="form-group col-sm-offset-1">
-						<button type="submit" class="btn btn-default">Sign in</button>
-						<a href="inscription.php"><button type="submit" class="btn btn-default">Create Account</button></a>
-					</div>
-				</form>
+
+				<!-- Je sais pas pourquoi le bandeau du bas recouvre la dernière division -->
 				<br />
+				<br />
+				<br />
+				<br />
+
 			</div>
 		</div>
 		<div id="footer">
