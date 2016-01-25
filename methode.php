@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="monApp">
+<html lang="fr">
 <head>
 	<meta charset = "utf-8"/>
 	<title>Pau'pup</title>
