@@ -24,7 +24,8 @@
             'description' => $description
         ));
 
-	echo $mail;
+	header('Location: /contact.php');
+	exit;
 
 	
 	?>
