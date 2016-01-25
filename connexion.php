@@ -78,7 +78,7 @@
 				<form class="form-inline">
 					<div class="form-group col-sm-offset-1">
 						<button type="submit" class="btn btn-default">Sign in</button>
-						<a href="inscription.php"><button type="submit" class="btn btn-default">Create Account</button></a>
+						<a href="inscription.php"><button type="button" class="btn btn-default">inscription</button></a>
 					</div>
 				</form>
 				<br />
