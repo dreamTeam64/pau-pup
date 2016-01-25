@@ -53,31 +53,26 @@
 				<br />
 			</div>
 			<div class="section" id="form">
-				<form class="form-horizontal">
+				<form class="form-horizontal" method="post" action="intranet/inscription.php">
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-5">
-							<input type="email" class="form-control" id="inputEmail3" placeholder="Email*">
+							<input type="email" name="mail" class="form-control" id="inputEmail3" placeholder="Email*">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-5">
-							<input type="password" class="form-control" id="inputPassword3" placeholder="Password*">
+							<input type="password" name="mdp" class="form-control" id="inputPassword3" placeholder="Password*">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-5">
-							<input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Password*">
+							<input type="password" name="mdpBis" class="form-control" id="inputPassword3" placeholder="Confirm Password*">
 						</div>
 					</div>
-					<div>
-						<div class="col-sm-offset-1 col-sm-5">
-							<h4><font color="blue">Choisissez une image de profil:</font></h4>
-						</div>
-						<div class="col-sm-offset-1 col-sm-10">
-							<label class="file"><input type="file" id="file"><span class="file-custom"></span></label>
-						</div>
+					<div class="form-group col-sm-offset-1">
+						<button type="submit" class="btn btn-default">Sign up</button>
 					</div>
 				</form>
 

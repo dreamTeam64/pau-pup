@@ -6,17 +6,16 @@
 		die('Erreur:'.$e->getMessage());
 	}
 
-	$req = $bdd -> prepare('SELECT * FROM clients where user = ?');
+	$req = $bdd -> prepare('SELECT * FROM clients where mail = ?');
 	$req -> execute(array($_POST['mail']));
 
 	$rep = $req -> fetch();
-
 
 	if ((isset($_POST['mdp'])) and ($rep['mdp'] == $_POST['mdp'])) {
 			session_start();
 			$_SESSION['id'] = $rep['id'];
 			$_SESSION['pseudo'] = $rep['mail'];
-			header('Location: dashboard.php');
+			header('Location: /intranet/dashboard.php');
 			exit();
 	}
 	else{

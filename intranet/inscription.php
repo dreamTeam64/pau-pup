@@ -8,9 +8,6 @@
 
 	$mail = $_POST['mail'];
 	$mdp = $_POST['mdp'];
-	
-
-	$description = $text;
 
 	$insertion = $bdd ->prepare('INSERT INTO clients(mail,mdp) VALUES (:mail,:mdp)');
 

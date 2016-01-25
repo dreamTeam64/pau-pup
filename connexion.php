@@ -54,16 +54,16 @@
 				<br />
 			</div>
 			<div class="section" id="form">
-				<form class="form-horizontal" cible="#">
+				<form class="form-horizontal" method="post" action="intranet/co.php">
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-5">
-							<input type="email" class="form-control" id="inputEmail3" placeholder="Email" required="required">
+							<input type="email" name="mail" class="form-control" id="inputEmail3" placeholder="Email" required="required">
 						</div>
 					</div>
 
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-5">
-							<input type="password" class="form-control" id="inputPassword3" placeholder="Password" required="required">
+							<input type="password" name="mdp" class="form-control" id="inputPassword3" placeholder="Password" required="required">
 						</div>
 					</div>
 					
