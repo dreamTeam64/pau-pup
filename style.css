@@ -6,6 +6,8 @@ body{
 	
 p {text-indent:30px}
 
+form {padding-bottom: 30px}
+
 .slideshow{
 	width: 100px;
 	margin: auto;

@@ -74,7 +74,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="form-group col-sm-offset-1">
+					<div class="col-sm-offset-1 col-sm-10">
 						<button type="submit" class="btn btn-default">Sign in</button>
 						<a href="inscription.php"><button type="button" class="btn btn-default">inscription</button></a>
 					</div>
