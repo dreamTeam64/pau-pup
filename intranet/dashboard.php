@@ -3,7 +3,7 @@
 <head>
 	<meta charset = "utf-8"/>
 	<title>Pau'pup</title>
-	<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="dashStyle.css" rel="stylesheet" type="text/css" media="all">
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
@@ -20,6 +20,17 @@
 </head>
 <body>
 	<div id="global">
-	DASHBOARD
+		<div id="menuDash">
+			<ul>
+				<li><a href="">pau'pup</a></li>
+				<li><a href="">deconnexion</a></li>
+			</ul>
+		</div>
+		<div id="wrapperDash">
+			
+		</div>
+		<div id="footerDash">
+			
+		</div>
 	</div>
 </body>

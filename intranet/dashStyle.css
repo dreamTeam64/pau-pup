@@ -1,0 +1,39 @@
+html,body{
+	height: 100%;
+	margin: 0px;
+}
+
+#global{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #45494A;
+}
+
+#menuDash{
+	position: relative;
+	text-align: right;
+}
+
+#menuDash ul li{
+	list-style: none;
+	display: inline;
+	color: white;
+}
+
+#menuDash ul{
+	padding: 30px;
+}
+
+#wrapperDash{
+
+}
+
+#footerDash{
+
+}
