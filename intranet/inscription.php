@@ -11,6 +11,7 @@
 	$mdp = $_POST['mdp'];
 
 	if ($mdp == $mdpBis) {
+		$mdp = crypt($mdp);
 		$insertion = $bdd ->prepare('INSERT INTO clients(mail,mdp) VALUES (:mail,:mdp)');
 
 		$insertion->execute(array(
