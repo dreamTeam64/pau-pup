@@ -51,6 +51,13 @@
 			<div class="section">
 				<h1><font color="red">Inscription:</font></h1>
 				<br />
+				<?php 
+					if (isset($_GET['error'])) {
+						if ($_GET['error'] == 1) {
+							echo "Veuillez indiquer 2 mots de passe identiques !";
+						}
+					}
+				?>
 			</div>
 			<div class="section" id="form">
 				<form class="form-horizontal" method="post" action="intranet/inscription.php">

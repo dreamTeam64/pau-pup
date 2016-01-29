@@ -7,17 +7,25 @@
 	}
 
 	$mail = $_POST['mail'];
+	$mdpBis = $_POST['mdpBis'];
 	$mdp = $_POST['mdp'];
 
-	$insertion = $bdd ->prepare('INSERT INTO clients(mail,mdp) VALUES (:mail,:mdp)');
+	if ($mdp == $mdpBis) {
+		$insertion = $bdd ->prepare('INSERT INTO clients(mail,mdp) VALUES (:mail,:mdp)');
 
-	$insertion->execute(array(
-            'mail' => $mail,
-            'mdp' => $mdp,
-        ));
+		$insertion->execute(array(
+	            'mail' => $mail,
+	            'mdp' => $mdp,
+	        ));
 
-	header('Location: /connexion.php');
-	exit;
+		header('Location: /connexion.php');
+		exit;
+	} else {
+		header('Location: /inscription.php?error=1');
+		exit;
+	}
+	
+	
 
 	
 	?>
