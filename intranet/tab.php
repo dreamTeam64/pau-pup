@@ -12,11 +12,13 @@
 		?>
 		<tr>
 			<td><?php echo $donnees['mail'] ?></td>
-			<td>nom</td>
-			<td>prenom</td>
-			<td>raison</td>
-			<td>description</td>
+			<td><?php echo $donnees['nom'] ?></td>
+			<td><?php echo $donnees['prenom'] ?></td>
+			<td><?php echo $donnees['raison'] ?></td>
 		</tr>
+		<p><strong>Description:</strong></p>
+		<br>
+		<?php echo $donnees['description'] ?>
 	<?php
 	}
 
