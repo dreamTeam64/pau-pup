@@ -140,7 +140,7 @@
 		<div id="footer">
 			copyright © 2016. Made with <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
 			<br>
-			<a href="connexion.php">intranet</a>
+			<a href="/intranet/dashboard.php">intranet</a>
 		</div>
 	</div>
 </body>
