@@ -11,7 +11,7 @@
 
 	$rep = $req -> fetch();
 
-	if ((isset($_POST['mdp'])) and (hash_equals($rep['mdp']),crypt($_POST['mdp'],$rep['mdp']))) {
+	if (crypt($_POST['mdp'],$rep['mdp'])==$rep['mdp']) {
 			session_start();
 			$_SESSION['id'] = $rep['id'];
 			$_SESSION['pseudo'] = $rep['mail'];
