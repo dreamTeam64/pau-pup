@@ -37,8 +37,23 @@
 			<h1>DASHBOARD</h1>
 			<hr>
 			<div id="OptDash">
-			<button type="button" class="btn btn-default btn-lg ">Modifier</button>
-			<button type="button" class="btn btn-default btn-lg ">Supprimer</button>
+				<button type="button" class="btn btn-default btn-lg ">Modifier</button>
+				<button type="button" class="btn btn-default btn-lg ">Supprimer</button>
+			</div>
+			<div id="tab">
+				<table>
+					<tr>
+						<td>mail</td>
+						<td>nom</td>
+						<td>prenom</td>
+						<td>raison</td>
+						<td>description</td>
+					</tr>
+					<?php 
+						include 'tab.php';
+					?>
+				</table>
+				
 			</div>
 		</div>
 		<div id="footerDash">
