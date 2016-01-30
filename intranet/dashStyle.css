@@ -12,7 +12,7 @@ html,body{
 	-webkit-font-smoothing: antialiased;
 	font-size: 18px;
 	text-decoration: none;
-	background-color: #45494A;
+	background-color: #848484;
 }
 
 #menuDash{
@@ -20,19 +20,26 @@ html,body{
 	text-align: right;
 }
 
-#menuDash ul li{
-	list-style: none;
-	display: inline;
-	color: white;
-}
-
 #menuDash ul{
 	padding: 30px;
 }
 
-#wrapperDash{
-
+#menuDash ul li{
+	list-style: none;
+	display: inline;
+	
 }
+
+#wrapperDash{
+	text-align: center;
+}
+
+#OptDash{
+	position: relative;
+	padding: 30px;
+	text-align: right;
+}
+
 
 #footerDash{
 

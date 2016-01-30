@@ -22,12 +22,17 @@
 	<div id="global">
 		<div id="menuDash">
 			<ul>
-				<li><a href="">pau'pup</a></li>
-				<li><a href="">deconnexion</a></li>
+				<li><a href=""><font color="#00FF00">pau'pup</font></a></li>
+				<li><a href=""><font color="#00FF00">deconnexion</font></a></li>
 			</ul>
 		</div>
 		<div id="wrapperDash">
-			
+			<h1>DASHBOARD</h1>
+			<hr>
+			<div id="OptDash">
+			<button type="button" class="btn btn-default btn-lg ">Modifier</button>
+			<button type="button" class="btn btn-default btn-lg ">Supprimer</button>
+			</div>
 		</div>
 		<div id="footerDash">
 			
