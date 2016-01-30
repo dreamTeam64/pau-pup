@@ -29,12 +29,12 @@
 	<div id="global">
 		<div id="menuDash">
 			<ul>
-				<li><a href="/index.php"><font color="#00FF00">pau'pup</font></a></li>
-				<li><a href="logout.php"><font color="#00FF00">deconnexion</font></a></li>
+				<li><a href="/index.php"><span class="glyphicon glyphicon-home" aria-hidden="false"> Pau'Pup</span></a></li>
+				<li><a href="logout.php"><span class="glyphicon glyphicon-log-out" aria-hidden="false"> Deconnexion</span></a></li>
 			</ul>
 		</div>
 		<div id="wrapperDash">
-			<h1>DASHBOARD</h1>
+			<h1><span class="glyphicon glyphicon-dashboard" aria-hidden="false"> DashBoard</span></h1>
 			<hr color="blue">
 			<div id="OptDash">
 				<div id="tab">

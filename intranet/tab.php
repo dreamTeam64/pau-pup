@@ -17,10 +17,10 @@
 				</button>
 				<input type="hidden" name="id" value="<?php echo $donnees['id'] ?>">
 			</form>
+				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#<?php echo $donnees['id'] ?>">
+  					<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+				</button>
 			
-			<button type="button" class="btn btn-default" aria-label="Left Align">
-  				<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-			</button>
 		</p>
 		<p>	<strong>Mail: </strong><?php echo $donnees['mail'] ?></td></p>
 		<p>	<strong>Nom: </strong><?php echo $donnees['nom'] ?></td>
@@ -28,6 +28,55 @@
 			<strong>Qui est-ce ?: </strong><?php echo $donnees['raison'] ?></td></p>
 		<p>	<strong>Description:</strong><?php echo $donnees['description'] ?></p>
 		<hr>
+
+		<!-- Modal -->
+		<div class="modal fade" id="<?php echo $donnees['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Modification</h4>
+					</div>
+					<form method="post" action="update.php">
+						<div class="Form">
+							<label for="Email">Email<font color="red">*</font></label>
+							<input type="Email" name="mail" class="form-control" id="InputEmail" value="<?php echo $donnees['mail'] ?>">
+						</div>
+						<br>
+						<div class="Form">
+							<label for="Surname">Nom<font color="red">*</font></label>
+							<input type="Surname" name="nom" class="form-control" id="InputSurname" required="required" value="<?php echo $donnees['nom'] ?>">
+						</div>
+						<br>
+						<div class="Form">
+							<label for="Name">Prénom<font color="red">*</font></label>
+							<input type="Name" name="prenom" class="form-control" id="InputName" required="required" value="<?php echo $donnees['prenom'] ?>">
+						</div>
+						<br>
+						<div class="Form">
+							<label for="People">Vous êtes ?<font color="red">*</font></label>
+							<select id="Menu" name="raison" class="form-control" value="<?php echo $donnees['raison'] ?>">
+								<option>Entreprise</option>
+								<option>Artiste</option>
+								<option>Autre</option>
+							</select>
+							<br>
+							<br>
+						</div>
+						<div class="FormText">
+							<label for="Description">Description: <font color="red">*</font></label>
+							<textarea class="form-control" name="text" rows="10" required="required"><?php echo $donnees['description'] ?></textarea>
+						</div>
+						<div class="modal-footer">
+							<input type="hidden" name="id" value="<?php echo $donnees['id']?>">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+							<button type="submit" class="btn btn-primary">Modifier</button>
+						</div>
+					</form>
+					
+				</div>
+			</div>
+		</div>
 	<?php
 	}
 
