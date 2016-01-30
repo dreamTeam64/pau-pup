@@ -1,3 +1,10 @@
+<?php 
+  	session_start();
+  	if (!isset($_SESSION['pseudo'])) {
+  		header('Location: /index.php');
+  		exit();
+  	}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -22,7 +29,7 @@
 	<div id="global">
 		<div id="menuDash">
 			<ul>
-				<li><a href=""><font color="#00FF00">pau'pup</font></a></li>
+				<li><a href="/index.php"><font color="#00FF00">pau'pup</font></a></li>
 				<li><a href=""><font color="#00FF00">deconnexion</font></a></li>
 			</ul>
 		</div>
