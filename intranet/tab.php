@@ -10,15 +10,12 @@
 
 	while($donnees = $rep->fetch()){
 		?>
-		<tr>
-			<td><?php echo $donnees['mail'] ?></td>
-			<td><?php echo $donnees['nom'] ?></td>
-			<td><?php echo $donnees['prenom'] ?></td>
-			<td><?php echo $donnees['raison'] ?></td>
-		</tr>
-		<p><strong>Description:</strong></p>
-		<br>
-		<?php echo $donnees['description'] ?>
+		<p>	<strong>Mail:</strong><?php echo $donnees['mail'] ?></td></p>
+		<p>	<strong>Nom:</strong><?php echo $donnees['nom'] ?></td>
+			<strong>Prénom:</strong><?php echo $donnees['prenom'] ?></td>
+			<strong>Raison:</strong><?php echo $donnees['raison'] ?></td></p>
+		<p>	<strong>Description:</strong><?php echo $donnees['description'] ?></p>
+		<hr color="blue">
 	<?php
 	}
 
