@@ -31,7 +31,6 @@
 			<h1>DASHBOARD</h1>
 			<hr color="blue">
 			<div id="OptDash">
-				<button type="button" class="btn btn-default btn-lg "><span class="glyphicon glyphicon-scissors"></span>   Editer</button>
 				<div id="tab">
 						<?php 
 							include 'tab.php';

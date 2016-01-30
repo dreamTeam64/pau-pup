@@ -54,7 +54,8 @@
 				<?php 
 					if (isset($_GET['error'])) {
 						if ($_GET['error'] == 1) {
-							echo "Veuillez indiquer 2 mots de passe identiques !";
+							echo '<div class="alert alert-danger" role="alert">Il vaut mieux rentrer 2 fois le même mot de passe !</div>
+';
 						}
 					}
 				?>
