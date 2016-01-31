@@ -24,7 +24,7 @@
 			<div id="Logo">
 				<a href="index.php"><img src="img/LOGO.png"></a>
 			</div>
-			<span id="menuBut" class="glyphicon glyphicon-menu-hamburger"></span>
+			<span id="menuBut" class="glyphicon glyphicon-menu-hamburger" aria-hidden="false"></span>
 			<ul>
 				<li>
 					<a href="index.php">

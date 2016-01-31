@@ -17,6 +17,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/slide.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/maps.js"></script>
 </head>
 <body>
 	<div id="global">
@@ -102,9 +103,14 @@
 					</div>
 				</form>
 			</div>
+			<div id="map" class="section"></div>
 		</div>
 		<div id="footer">
 			copyright © 2016
 		</div>
 	</div>
+<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP5-_PMQlai4erT9whJ8dmKxYKfj1g9Gs&callback=initMap">
+</script>
 </body>
+<html>

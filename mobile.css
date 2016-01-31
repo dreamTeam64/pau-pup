@@ -8,22 +8,38 @@
     }
 
     #Logo img{
-	width: 140px;
+	   width: 140px;
+       z-index: 300;
 	}
 
+    #Logo{
+    position: absolute;
+
+    top: 30px;
+    right: 20px;
+    font-size: 60px;
+
+}
     #menu{
         height: 150px;
     }
 
-    #menu button{
-        padding: 20px;
+    #menuBut{
+        text-align: left;
+        position: relative;
+        float: left;
+        padding: 70px;
         display: initial;
         z-index: 200;
         color: white;
+        width: auto;
+
     }
+
 
 	#menu ul{
 		padding-top: 0px;
+        width: 100%;
         float: right;
         display: none;
         background-color: black;
