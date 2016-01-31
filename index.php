@@ -16,9 +16,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/slide.js"></script>
-	
-
-
+	<script type="text/javascript" src="js/menu.js"></script>
 </head>
 <body>
 	<div id="global">
@@ -26,6 +24,9 @@
 			<div id="Logo">
 				<a href="index.php"><img src="img/LOGO.png"></a>
 			</div>
+			
+			<span id="menuBut" class="glyphicon glyphicon-menu-hamburger"></span>
+			
 			<ul>
 				<li>
 					<a href="index.php">
