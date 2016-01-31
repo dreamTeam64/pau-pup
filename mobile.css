@@ -2,16 +2,34 @@
     section{
     	width: 100%;
     	margin: 0px;
+    	
     }
 
+    #Logo img{
+	width: 140px;
+	}
+
+	#menu ul{
+		padding-top: 20px;
+	}
+
+	#menu ul li{
+		display: block;
+		font-size: 15px;
+		padding-right: 0px;
+	}
+
     #presentation{
-    	padding: 0px;
+    	padding-right: 10px;
+    	padding-left: 10px;
     }
     #solution{
-    	padding: 0px;
+    	padding-right: 10px;
+    	padding-left: 10px;
     }
     #profileEnt{
-    	padding: 0px;
+    	padding-right: 10px;
+    	padding-left: 10px;
     }
     #profileEnt ul{
     	padding: 0px;

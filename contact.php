@@ -3,7 +3,9 @@
 <head>
 	<meta charset = "utf-8"/>
 	<title>Pau'pup</title>
+	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
 	<link href="style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="mobile.css" rel="stylesheet" type="text/css" media="all">
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
@@ -19,7 +21,7 @@
 	<div id="global">
 		<div id="menu">
 			<div id="Logo">
-				<a href="index.php"><img src="img/LOGO.png" width="250px"></a>
+				<a href="index.php"><img src="img/LOGO.png"></a>
 			</div>
 			<ul>
 				<li>

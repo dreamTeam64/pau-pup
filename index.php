@@ -24,7 +24,7 @@
 	<div id="global">
 		<div id="menu">
 			<div id="Logo">
-				<a href="index.php"><img src="img/LOGO.png" width="250px"></a>
+				<a href="index.php"><img src="img/LOGO.png"></a>
 			</div>
 			<ul>
 				<li>
