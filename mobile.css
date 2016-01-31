@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px){
+    section{
+    	width: 100%;
+    	margin: 0px;
+    }
+
+    #presentation{
+    	padding: 0px;
+    }
+    #solution{
+    	padding: 0px;
+    }
+    #profileEnt{
+    	padding: 0px;
+    }
+    #profileEnt ul{
+    	padding: 0px;
+    }
+
+}

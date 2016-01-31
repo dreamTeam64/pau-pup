@@ -2,8 +2,10 @@
 <html lang="fr">
 <head>
 	<meta charset = "utf-8"/>
+	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
 	<title>Pau'pup</title>
 	<link href="style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="mobile.css" rel="stylesheet" type="text/css" media="all">
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
@@ -109,8 +111,9 @@
 			</div>
 			<hr color="black" width="300px">
 			<div id="profileEnt" class="section">
+			<h3>Profil Recherché</h3>
 				<p style="inherit">
-					<h3>Profil Recherché</h3>
+					
 				</p>
 				<br>
 				<p style="inherit">
@@ -122,8 +125,8 @@
 						<li>Organisateur d'évènements</li>
 					</ul>
 				</p>
+				<b><i>Lieux</i></b>
 				<p style="inherit">
-					<b><i>Lieux</i></b>
 					<ul>
 						<li>Pau</li>
 						<li>Biarritz</li>
