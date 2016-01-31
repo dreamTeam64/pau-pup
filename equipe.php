@@ -52,7 +52,7 @@
 				<br>
 			</div>
 			<div id="membres">
-				<div class="inlineBox">
+				<div id="photo" class="inlineBox">
 					<ul>
 						<li><a href="#" data-toggle="modal" data-target="#pierre"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
 						<li><a href="#" data-toggle="modal" data-target="#francois"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
@@ -101,7 +101,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="inlineBox">
+				<div id="desc" class="inlineBox">
 					<p>
 						Parce que savoir qui va prendre en main votre projet est important, nous vous invitons à découvrir nos différents profiles !
 					</p>
