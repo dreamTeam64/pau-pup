@@ -56,10 +56,9 @@
 			<div id="membres">
 				<div id="photo" class="inlineBox">
 					<ul>
-						<li><a href="#" data-toggle="modal" data-target="#pierre"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
-						<li><a href="#" data-toggle="modal" data-target="#francois"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
-						<li><a href="#" data-toggle="modal" data-target="#ludovic"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
-						<li><a href="#" data-toggle="modal" data-target="#guillaume"><img src="img/social.png" class="img-circle" height="120px" width="100px"></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#pierre"><img src="img/social1.svg" class="img-circle" height="120px" width="100px" alt="pierre"></a><br>Fontaine Pierre</li>
+						<li><a href="#" data-toggle="modal" data-target="#francois"><img src="img/social2.svg" class="img-circle" height="120px" width="100px" alt="francois"></a><br>Thoraval Francois</li>
+						<li><a href="#" data-toggle="modal" data-target="#ludovic"><img src="img/social3.svg" class="img-circle" height="120px" width="100px" alt="ludovic"></a><br>Bouzom Ludovic</li>
 					</ul>
 						
 					<!-- Modal -->
