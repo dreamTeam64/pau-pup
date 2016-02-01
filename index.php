@@ -52,7 +52,7 @@
 		</div>
 
 		<div id="wrapper">
-			<center><h3><span class="glyphicon glyphicon-warning-sign" aria-hidden="false"> Site actuellement en chantier ! Mais nous progressons vite !</h3></span></center>
+			<center><h3><span class="glyphicon glyphicon-warning-sign" aria-hidden="false"> Site actuellement en chantier ! Mais nous progressons vite !</span></h3></center>
 			<div class="progress">
 				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
 			</div>
@@ -101,7 +101,7 @@
 					</div>
 				</p>
 				<p>
-					Nous hebergons nos sites sur des Raspberry. <br>
+					Nous hebergons nos sites sur des Raspberry. <br/>
 					<center><img src="img/rasp.png" height="100" width="100"></center>
 				</p>
 				<p>
@@ -113,10 +113,7 @@
 			<hr color="black" width="300px">
 			<div id="profileEnt" class="section">
 			<h3>Profil Recherché</h3>
-				<p style="inherit">
-					
-				</p>
-				<br>
+				<br/>
 				<p style="inherit">
 					<b><i>Votre identité</i></b>
 					<ul>
@@ -148,3 +145,4 @@
 		</div>
 	</div>
 </body>
+</html>

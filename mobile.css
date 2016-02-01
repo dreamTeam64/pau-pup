@@ -16,7 +16,7 @@
     position: absolute;
 
     top: 30px;
-    right: 20px;
+    left: 20px;
     font-size: 60px;
 
 }
@@ -27,7 +27,7 @@
     #menuBut{
         text-align: left;
         position: relative;
-        float: left;
+        float: right;
         padding: 70px;
         display: initial;
         z-index: 200;
@@ -38,8 +38,9 @@
 
 
 	#menu ul{
-		padding-top: 0px;
+		padding: 0px;
         width: 100%;
+        height: auto;
         float: right;
         display: none;
         background-color: black;

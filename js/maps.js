@@ -15,6 +15,8 @@ function initMap() {
   // Create a marker and set its position.
   var marker = new google.maps.Marker({
   map: map,
+  animation: google.maps.Animation.DROP,
+  draggable: false,
   position: myLatLng,
   title: 'Hello World!'
   });
