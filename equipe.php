@@ -67,30 +67,30 @@
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-									<h4 class="modal-title" id="myModalLabel">Fontaine Pierre (20 ans)</h4>
+									<h4 class="modal-title" id="myModalLabel">Fontaine Pierre (20 ans) "Develloper Back End"</h4>
 								</div>
 
 								<div class="modal-body">
 									<p>
-										Devellopeur "back end", je m'occupe de la partie caché de "l'iceberg" ! Tous ce qui est
-										base de donnée, serveur, c'est moi !
+										Etudiant en Informatique à Pau (UPPA).
 									</p>
 									<p>
-										Etudiant en Informatique à Pau (UPPA), je souhaite pousser mes études le plus loin possible
-										dans cette branche qui me passionne tant !
-									</p>
-									<p>
-										Je tente de develloper sur différents axes :
-										<ul>
-											<li>Robotique (drone)</li>
-											<li>Applications mobiles</li>
-											<li>Application Web</li>
-											<li>Interface Client (JAVA)</li>
+										<details>
+											<summary><h3>Skills</h3></summary>										<ul>
+											<li>JavaScript</li>
+											<li>JQuery</li>
+											<li>PHP</li>
+											<li>HTML5</li>
+											<li>CSS3</li>
+											<li>MySQL</li>
+											<li>C++</li>
 										</ul>
+										</details>
+
 									</p>
 									<p>
-										Je suis aussi un fan de grand fan de Projets, les contraintes sont autant de barrière à 
-										franchir (tant qu'elles sont franchisables hein ?!)
+										Je travail sous Unix ('OS X' & 'Debian'), j'ai pour projet de poursuivre mes études en robotique.<br>
+										En patientant je serais ravi de vous aider sur votre prochaine Application Web.
 									</p>
 									
 								</div>
