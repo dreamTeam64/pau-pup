@@ -6,7 +6,7 @@
 		die('Erreur:'.$e->getMessage());
 	}
 
-	$rep = $bdd -> query('SELECT * FROM contact');
+	$rep = $bdd -> query('SELECT * FROM contact ORDER BY id DESC');
 
 	while($donnees = $rep->fetch()){
 		?>

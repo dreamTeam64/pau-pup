@@ -9,6 +9,7 @@ $(document).ready(function(){
     		$("#menuBut").animate({right : '0px'});
     		isRight = true;
     	};
+    	$("#Logo").slideToggle();
         $("#menu ul").toggle();
     });
 });
