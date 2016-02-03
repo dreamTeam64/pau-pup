@@ -113,8 +113,9 @@
 			copyright © 2016
 		</div>
 	</div>
+
 <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP5-_PMQlai4erT9whJ8dmKxYKfj1g9Gs&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP5-_PMQlai4erT9whJ8dmKxYKfj1g9Gs&callback=initMap">
 </script>
 </body>
 <html>
