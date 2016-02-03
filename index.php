@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<link rel="icon" type="image/png" href="http://printableletters.org/letterswp/wp-content/uploads/old-english-printable-letter-p.jpg">
 	<meta charset = "utf-8"/>
 	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
 	<title>Pau'pup</title>
@@ -72,7 +73,7 @@
 				<center><h3>Nos Solutions !</h3></center>
 				<br>
 				<p>
-					L'interet de nous choisir pour vous faire connaitre sur le Web est que nous faisons des sites léger
+					L'interêt de nous choisir pour vous faire connaitre sur le Web est que nous faisons des sites léger
 					et donc rapide à charger ! Le temps c'est de l'argent et on le sait !
 				</p>
 				<p>

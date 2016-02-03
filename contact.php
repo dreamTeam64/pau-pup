@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<link rel="icon" type="image/png" href="http://printableletters.org/letterswp/wp-content/uploads/old-english-printable-letter-p.jpg">
 	<meta charset = "utf-8"/>
-	<title>Pau'pup</title>
 	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
+	<title>Pau'pup</title>
 	<link href="style.css" rel="stylesheet" type="text/css" media="all">
 	<link href="mobile.css" rel="stylesheet" type="text/css" media="all">
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -86,8 +87,11 @@
 					<div class="Form">
 						<label for="People">Vous êtes ?<font color="red">*</font></label>
 						<select id="Menu" name="raison" class="form-control">
-							<option>Entreprise</option>
-							<option>Artiste</option>
+							<option></option>
+							<option>Professionnel (ex: PME)</option>
+							<option>Particulier (ex: photographe,musicien ...)</option>
+							<option>Association</option>
+							<option>Organisateur d'évènements</option>
 							<option>Autre</option>
 						</select>
 						<br>

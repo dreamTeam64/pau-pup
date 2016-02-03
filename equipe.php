@@ -167,7 +167,9 @@
 							</div>
 
 							<div class="modal-body">
-								Du texte								
+								<p>
+									Etudiant en Informatique à Pau (UPPA).
+								</p>									
 							</div>
 
 							<div class="modal-footer">
