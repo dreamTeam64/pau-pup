@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<link rel="icon" type="image/png" href="http://printableletters.org/letterswp/wp-content/uploads/old-english-printable-letter-p.jpg">
 	<meta charset = "utf-8"/>
 	<title>Pau'pup</title>
 	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
