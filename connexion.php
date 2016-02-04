@@ -54,7 +54,7 @@
 			<?php 
 					if (isset($_GET['error'])) {
 						if ($_GET['error'] == 1) {
-							echo '<div class="alert alert-danger" role="alert"><center>La connexion a échoué !</center></div>';
+							echo '<div class="alert alert-warning alert-dismissible fade in" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><center> La connexion a échoué ! </center></div>';
 						}
 					}
 				?>
