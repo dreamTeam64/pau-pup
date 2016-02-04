@@ -19,7 +19,8 @@
 			exit();
 	}
 	else{
-		echo "Identification Failure";
+		header('Location: /connexion.php?error=1');
+		exit();
 	}
 ?>
 

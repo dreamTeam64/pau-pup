@@ -51,6 +51,13 @@
 		</div>
 
 		<div id="wrapper">
+			<?php 
+					if (isset($_GET['error'])) {
+						if ($_GET['error'] == 1) {
+							echo '<div class="alert alert-danger" role="alert"><center>La connexion a échoué !</center></div>';
+						}
+					}
+				?>
 			<div class="section">
 				<h1><font color="red">Connexion:</font></h1>
 				<br />
