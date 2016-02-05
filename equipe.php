@@ -76,22 +76,24 @@
 										Etudiant en Informatique à Pau (UPPA).
 									</p>
 									<p>
-										<details>
-											<summary><h3>Skills</h3></summary>										<ul>
+											<h3>Skills</h3>									
+										<ul>
 											<li>JavaScript</li>
 											<li>JQuery</li>
 											<li>PHP</li>
 											<li>HTML5</li>
 											<li>CSS3</li>
 											<li>MySQL</li>
+											<li>GitHub</li>
 											<li>C++</li>
 										</ul>
-										</details>
-
 									</p>
 									<p>
 										Je travail sous Unix ('OS X' & 'Debian'), j'ai pour projet de poursuivre mes études en robotique.<br>
-										En patientant je serais ravi de vous aider sur votre prochaine Application Web.
+										En patientant je serai ravi de vous aider sur votre prochaine Application Web.
+									</p>
+									<p>
+										J'ai le sens des reponsabilité et j'en tiens pour preuve mon BAFA !
 									</p>
 									
 								</div>
@@ -125,11 +127,30 @@
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel">Francois Thoraval (age)</h4>
+								<h4 class="modal-title" id="myModalLabel">Francois Thoraval (age) "Devellopeur Front-end</h4>
 							</div>
 
 							<div class="modal-body">
-								Develloper "front end".
+								<p>
+									Etudiant à l'UPPA (Université de Pau et des Pays de l'Adour) en Informatique.
+								</p>
+								<p>
+									Je dirige mes études vers la sécurité Informatique.
+								</p>
+								<p>
+									<h3><center>Skills</center></h3>
+									<ul>
+										<li>C++</li>
+										<li>HTML5</li>
+										<li>PHP</li>
+										<li>CSS3</li>
+										<li>Git</li>
+										<li>LaTex</li>
+									</ul>
+								</p>
+								<p>
+									Je travaille essentiellement sous Debian (UNIX) et Windows.
+								</p>
 								
 							</div>
 
@@ -145,11 +166,18 @@
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel">Bouzom Ludovic (age)</h4>
+								<h4 class="modal-title" id="myModalLabel">Bouzom Ludovic (20 ans) "commercial"</h4>
 							</div>
 
 							<div class="modal-body">
-								La vie de ludo
+								<p>
+									Etudiant en économie, j'alterne mes cours <em>(BTS Banque)</em> et la banque <em>(BNS Paribas)</em> où je suis conseiller.<br>
+								J'ai le sens des responsabilités et des affaires.
+								</p>
+								<p>
+									Alors vous vous demandez peut-être <br> <cite><q>Mais qu'est ce qu'un étudiant en banque vient faire là !?</q></cite> <br> La réponse est plutôt simple ! 
+								Il se trouve que je suis le mieux placé pour parler aux clients que ce soit dans la vie de tous les jours ou au travers d'une application Web !
+								</p>
 							</div>
 
 							<div class="modal-footer">

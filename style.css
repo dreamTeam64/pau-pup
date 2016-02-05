@@ -8,6 +8,10 @@ p {text-indent:30px}
 
 form {padding-bottom: 30px}
 
+cite { 
+    font-style: italic;
+}
+
 .slideshow{
 	width: 100px;
 	margin: auto;
