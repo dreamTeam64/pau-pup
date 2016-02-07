@@ -112,14 +112,14 @@
 				</div>
 				<div id="desc" class="inlineBox">
 					<p>
-						Parce que savoir qui va prendre en main votre projet est important, nous vous invitons à découvrir nos différents profiles !
+						Parce que savoir qui va prendre en main votre projet est important, nous vous invitons à découvrir nos différents profils !
 					</p>
 					<p>
 						Vous y verrez en chacun de nous des compétences différentes et alors vous comprendrez que ce sont les "ingrédients" pour reussir la bonne "Vinaigrette" ... en 
 						d'autres termes un Projet !
 					</p>
 					<p>
-						Bien sur il faut garder en tête que nous ne sommes pas des professionnels, mais plutot des amateurs averti ayant l'objectif de devenir professionnel.
+						Bien sûr il faut garder en tête que nous ne sommes pas des professionnels, mais plutot des amateurs avertis ayant l'objectif de devenir professionnels.
 					</p><br>
 					<p>
 						<span class="glyphicon glyphicon-console" aria-hidden="true"> <kbd>sudo read cv !</kbd></span>
@@ -140,7 +140,8 @@
 									Etudiant à l'UPPA (Université de Pau et des Pays de l'Adour) en Informatique.
 								</p>
 								<p>
-									Je dirige mes études vers la sécurité Informatique.
+									Je suis passionné par l'informatique et son côté créatif (j'adore innover).
+									Je pense orienter mes études vers la sécurité Informatique.
 								</p>
 								<p>
 									<h3><center>Skills</center></h3>
