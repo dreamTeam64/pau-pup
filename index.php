@@ -124,8 +124,8 @@
 						<li>Organisateur d'évènements</li>
 					</ul>
 				</p>
-				<b><i>Lieux</i></b>
-				<p style="inherit">
+				<p ><b><i>Lieux</i></b></p>
+				<p >
 					<ul>
 						<li>Pau</li>
 						<li>Biarritz</li>

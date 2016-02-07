@@ -72,9 +72,9 @@
 								</div>
 
 								<div class="modal-body">
-									<p>
+									
 										<a href="https://github.com/PierreFontaine" target="_blank"><img src="img/git.png" width="50" height="50" alt="git" /></a>
-									</p>
+										<hr>
 									<p>
 										Etudiant en Informatique à Pau (UPPA).
 									</p>
@@ -89,6 +89,8 @@
 											<li>MySQL</li>
 											<li>GitHub</li>
 											<li>C++</li>
+											<li>Android Java</li>
+											<li>BootStrap</li>
 										</ul>
 									</p>
 									<p>

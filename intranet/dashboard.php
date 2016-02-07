@@ -31,7 +31,7 @@
 		<div id="menuDash">
 			<ul>
 				<li><a href="/index.php"><span class="glyphicon glyphicon-home" aria-hidden="false"> Pau'Pup</span></a></li>
-				<li><a href="logout.php"><span class="glyphicon glyphicon-log-out" aria-hidden="false"> Deconnexion</span></a></li>
+				<li><a href="scripts/logout.php"><span class="glyphicon glyphicon-log-out" aria-hidden="false"> Deconnexion</span></a></li>
 			</ul>
 		</div>
 		<div id="wrapperDash">
@@ -40,7 +40,7 @@
 			<div id="OptDash">
 				<div id="tab">
 						<?php 
-							include 'tab.php';
+							include 'scripts/tab.php';
 						?>
 				</div>	
 			</div>

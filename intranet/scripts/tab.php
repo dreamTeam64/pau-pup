@@ -1,4 +1,11 @@
 <?php
+	session_start();
+	
+	if (!isset($_SESSION['pseudo'])) {
+		header('Location: /connexion.php');
+		exit();
+	}
+
 	try{
 		$bdd = new PDO('mysql:host=localhost;dbname=form','root','getht1bluray');
 	}

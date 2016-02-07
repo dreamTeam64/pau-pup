@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
 	var isRight;
 	isRight = true;
