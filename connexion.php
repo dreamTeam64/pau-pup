@@ -63,7 +63,7 @@
 				<br />
 			</div>
 			<div class="section" id="form">
-				<form class="form-horizontal" method="post" action="intranet/co.php">
+				<form class="form-horizontal" method="post" action="intranet/scripts/co.php">
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-5">
 							<input type="email" name="mail" class="form-control" id="inputEmail3" placeholder="Email" required="required">

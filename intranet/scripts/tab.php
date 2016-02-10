@@ -18,7 +18,7 @@
 	while($donnees = $rep->fetch()){
 		?>
 		<p> 
-			<form method="post" action="delete.php">
+			<form method="post" action="/scripts/delete.php">
 				<button type="submit" class="btn btn-default" aria-label="Left Align">
   					<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
 				</button>
@@ -44,7 +44,7 @@
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						<h4 class="modal-title" id="myModalLabel">Modification</h4>
 					</div>
-					<form method="post" action="update.php">
+					<form method="post" action="scripts/update.php">
 						<div class="Form">
 							<label for="Email">Email<font color="red">*</font></label>
 							<input type="Email" name="mail" class="form-control" id="InputEmail" value="<?php echo $donnees['mail'] ?>">
