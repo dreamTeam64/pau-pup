@@ -13,6 +13,6 @@
 		'id' => $id
 	));
 
-	header('Location: dashboard.php');
+	header('Location: ../dashboard.php');
   	exit();
 ?>

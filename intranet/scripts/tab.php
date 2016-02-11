@@ -18,7 +18,7 @@
 	while($donnees = $rep->fetch()){
 		?>
 		<p> 
-			<form method="post" action="/scripts/delete.php">
+			<form method="post" action="scripts/delete.php">
 				<button type="submit" class="btn btn-default" aria-label="Left Align">
   					<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
 				</button>
