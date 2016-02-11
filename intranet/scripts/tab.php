@@ -17,18 +17,34 @@
 
 	while($donnees = $rep->fetch()){
 		?>
-		<p> 
-			<form method="post" action="scripts/delete.php">
-				<button type="submit" class="btn btn-default" aria-label="Left Align">
-  					<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-				</button>
-				<input type="hidden" name="id" value="<?php echo $donnees['id'] ?>">
-			</form>
-				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#<?php echo $donnees['id'] ?>">
-  					<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-				</button>
-			
-		</p>
+		<div id="toolBar">
+			<ul>
+				<li>
+					<form method="post" action="scripts/delete.php">
+						<button type="submit" class="btn btn-default">
+  							<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+						</button>
+						<input type="hidden" name="id" value="<?php echo $donnees['id'] ?>">
+					</form>
+				</li>
+				<li>
+					<form>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#<?php echo $donnees['id'] ?>">
+  							<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+						</button>
+					</form>
+				</li>
+				<li>
+					<form method="post" action="scripts/download.php">
+						<button type="submit" class="btn btn-default">
+  							<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+						</button>
+						<input type="hidden" name="id" value="<?php echo $donnees['id'] ?>">
+					</form>
+				</li>
+			</ul>
+		</div>
+
 		<p>	<strong>Mail: </strong><?php echo $donnees['mail'] ?></td></p>
 		<p>	<strong>Nom: </strong><?php echo $donnees['nom'] ?></td>
 			<strong>Prénom: </strong><?php echo $donnees['prenom'] ?></td>

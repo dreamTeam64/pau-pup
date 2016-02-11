@@ -7,6 +7,24 @@ td{
     border: 1px solid black; /* auront une bordure de 1px */
 }
 
+#toolBar ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+#toolBar ul li{
+	display: inline;
+	list-style: none;
+	width: auto;
+}
+
+#toolBar form{
+	width: 60px;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
 #global{
 	position: absolute;
 	height: 100%;
