@@ -1,0 +1,36 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\auhtor{Fontaine Pierre}
+\title{Conception de programme}
+\begin{document}
+	\maketitle
+	\newpage
+	\tableofcontents
+	\newpage
+	\section{language graph vers Code C}
+		Codes qui decrivent le meme comportement robots.
+		\subsection{comportement}
+			Un comportement est le terme général pour désigner tout ce que fait le robot : demrrer un moteur, avancer pendant 3s,suivre une ligne, suivre un chemin dans un labyrinthe ...
+		\subsection{algo}
+			Un algorithme permet de specifier un comportement dans un language proche d'un language naturel
+		\subsection{programme}
+			Un programme permet de traduire la specification dans le language de programmation du robot
+
+		3 types de comportements:
+		\begin{itemize}
+			\item elementaire : ie "demarrer moteur"
+			\item simple ie "avancer pendant 1 sc"
+			\item complexe ie "suivre un chemin dans un labyrinthe"
+		\end{itemize}
+
+		Toute solutions non triviale à un problème est d'abord exprimée sous la forme d'un algo, dit de premier niveau, specifiant un algo complexe
+	\section{methode}
+		Enoncé du problème -> Algo -> programe
+		\subsection{etape 1}
+			Description de la solution initiale, comportement complexe
+		\subsection{etape 2}
+			Décomposition en comportement encore plus simple
+		\subsection{etape 3}
+			Recommencer étape 2 jusqu'à obtenir des comportements élémentaires.
+\end{document}

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<link rel="icon" type="image/png" href="http://printableletters.org/letterswp/wp-content/uploads/old-english-printable-letter-p.jpg">
+	<link rel="icon" type="image/png" href="/img/favicon.png" />
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
 	<meta charset = "utf-8"/>
 	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
 	<title>Pau'pup</title>
@@ -53,10 +54,6 @@
 		</div>
 
 		<div id="wrapper">
-			<center><h3><span class="glyphicon glyphicon-warning-sign" aria-hidden="false"> Site actuellement en chantier ! Mais nous progressons vite !</span></h3></center>
-			<div class="progress">
-				<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
-			</div>
 			<div id="presentation" class="section">
 				<center><h3>Des Services De Qualité ! </h3></center>
 				<br>

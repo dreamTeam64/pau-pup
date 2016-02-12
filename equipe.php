@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<link rel="icon" type="image/png" href="http://printableletters.org/letterswp/wp-content/uploads/old-english-printable-letter-p.jpg">
+	<link rel="icon" type="image/png" href="/img/favicon.png" />
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
+
 	<meta charset = "utf-8"/>
 	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
 	<title>Pau'pup</title>
@@ -116,7 +118,7 @@
 					</p>
 					<p>
 						Vous y verrez en chacun de nous des compétences différentes et alors vous comprendrez que ce sont les "ingrédients" pour reussir la bonne "Vinaigrette" ... en 
-						d'autres termes un Projet !
+						d'autres termes votre Projet !
 					</p>
 					<p>
 						Bien sûr il faut garder en tête que nous ne sommes pas des professionnels, mais plutot des amateurs avertis ayant l'objectif de devenir professionnels.
@@ -177,12 +179,13 @@
 
 							<div class="modal-body">
 								<p>
-									Etudiant en économie, j'alterne mes cours <em>(BTS Banque)</em> et la banque <em>(BNS Paribas)</em> où je suis conseiller.<br>
-								J'ai le sens des responsabilités et des affaires.
+									Actuellement en <em>Bts banque</em>.
 								</p>
 								<p>
-									Alors vous vous demandez peut-être <br> <cite><q>Mais qu'est ce qu'un étudiant en banque vient faire là !?</q></cite> <br> La réponse est plutôt simple ! 
-								Il se trouve que je suis le mieux placé pour parler aux clients que ce soit dans la vie de tous les jours ou au travers d'une application Web !
+									Je m'occupe de la partie commerciale. J'ai travaillé dans une multinationale dont je tairais le nom qui m'a montré que la rigueur et le conseil sont indispensable à votre satisfaction.
+								</p>
+								<p>
+									Lorsque vous vous inscrirez c'est avec moi que vous aurez un entretien et qui me chargerai de votre contentement. C'est aussi ça une relation de confiance
 								</p>
 							</div>
 

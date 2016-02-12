@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<link rel="icon" type="image/png" href="http://printableletters.org/letterswp/wp-content/uploads/old-english-printable-letter-p.jpg">
+	<link rel="icon" type="image/png" href="/img/favicon.png" />
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
 	<meta charset = "utf-8"/>
 	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
 	<title>Pau'pup</title>
@@ -17,6 +18,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/slide.js"></script>
+	<script type="text/javascript" src="forms/formulaire.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/maps.js"></script>
 </head>
@@ -71,7 +73,7 @@
 				<form method="post" action="forms/traitement.php">
 					<div class="Form">
 						<label for="Email">Email<font color="red">*</font></label>
-						<input type="Email" name="mail" class="form-control" id="InputEmail" required="required" placeholder="@">
+						<input type="Email" name="mail" class="form-control" id="InputEmail" required="required" placeholder="@" onkeyup="regex()">
 					</div>
 					<br>
 					<div class="Form">

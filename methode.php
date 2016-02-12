@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<link rel="icon" type="image/png" href="http://printableletters.org/letterswp/wp-content/uploads/old-english-printable-letter-p.jpg">
+	<link rel="icon" type="image/png" href="/img/favicon.png" />
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
 	<meta charset = "utf-8"/>
 	<title>Pau'pup</title>
 	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
@@ -97,7 +98,7 @@
 				</p>
 				<h2>Controles et validation du site </h2><span class="label label-info">semaine 8</span>
 				<p>
-					On vérifie si tout y est et si le produit correspond aux attentes !
+					On vérifie si tout y est et si le produit correspond à vos attentes !
 				</p>
 				<h2>Intégration et tests sur différents navigateurs </h2><span class="label label-info">semaine 9</span>
 				<p>
@@ -105,7 +106,7 @@
 				</p>
 				<h2>Mise en ligne </h2><span class="label label-info">semaine 10</span>
 				<p>
-					La votre site est hébérgé et quiquonque possédent le lien peut y acceder !
+					La votre site est hébérgé et quiconque possédent le lien peut y accéder !
 				</p>
 				<h2>Référencement sur les moteurs de recherche </h2><span class="label label-info">semaine 10</span>
 				<p>

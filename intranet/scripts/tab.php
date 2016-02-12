@@ -43,7 +43,7 @@
 					</form>
 				</li>
 				<li>
-					<form method="post" action="# <!--scripts/sendMail.php-->">
+					<form method="post" action="scripts/sendMail.php">
 						<button type="submit" class="btn btn-default">
   							<span class="glyphicon glyphicon-send" aria-hidden="true"> comming soon !</span>
 						</button>

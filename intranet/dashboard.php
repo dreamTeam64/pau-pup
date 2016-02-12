@@ -8,7 +8,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<link rel="icon" type="image/png" href="http://printableletters.org/letterswp/wp-content/uploads/old-english-printable-letter-p.jpg">
+	<link rel="icon" type="image/png" href="/img/favicon.png" />
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
 	<meta charset = "utf-8"/>
 	<title>Pau'pup</title>
 	<link href="dashStyle.css" rel="stylesheet" type="text/css" media="all">

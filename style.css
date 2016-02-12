@@ -37,7 +37,7 @@ cite {
 	height: 100%;
 	width: 100%;
 	background-color: white;
-	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-family: 'Lato', sans-serif, Arial,Calibri ;
 	-webkit-font-smoothing: antialiased;
 	font-size: 18px;
 	text-decoration: none;
