@@ -9,7 +9,9 @@ function initMap() {
   zoomControl: false,
   streetViewControl: false,
   mapTypeControl: false,
-  scaleControl: false
+  scaleControl: false,
+  draggable:false,
+  disableDoubleClickZoom:true
   });
 
   // Create a marker and set its position.
