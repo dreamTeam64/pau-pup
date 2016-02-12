@@ -83,8 +83,8 @@
 									<p>
 											<h3>Skills</h3>									
 										<ul>
-											<li>JavaScript</li>
-											<li>JQuery</li>
+											<li>JavaScript (Jquery,AngularJS)</li>
+											<li>Apache</li>
 											<li>PHP</li>
 											<li>HTML5</li>
 											<li>CSS3</li>

@@ -73,17 +73,17 @@
 				<form method="post" action="forms/traitement.php">
 					<div class="Form">
 						<label for="Email">Email<font color="red">*</font></label>
-						<input type="Email" name="mail" class="form-control" id="InputEmail" required="required" placeholder="@" onkeyup="regex()">
+						<input type="Email" name="mail" class="form-control" id="InputEmail" required="required" placeholder="@" onkeyup="regexMail()">
 					</div>
 					<br>
 					<div class="Form">
 						<label for="Surname">Nom<font color="red">*</font></label>
-						<input type="Surname" name="nom" class="form-control" id="InputSurname" required="required" placeholder="Nom">
+						<input type="Surname" name="nom" class="form-control" id="InputSurname" required="required" placeholder="Nom" onchange="nomChange()"> 
 					</div>
 					<br>
 					<div class="Form">
 						<label for="Name">Prénom<font color="red">*</font></label>
-						<input type="Name" name="prenom" class="form-control" id="InputName" required="required" placeholder="Prénom">
+						<input type="Name" name="prenom" class="form-control" id="InputName" required="required" placeholder="Prénom" onchange="prenomChange()">
 					</div>
 					<br>
 					<div class="Form">

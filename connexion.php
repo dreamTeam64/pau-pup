@@ -80,13 +80,12 @@
 					<div class="form-group">
 						<div class="col-sm-offset-1 col-sm-10">
 							<div class="checkbox">
-								<label><input type="checkbox"> Remember me</label>
+								<label><input type="checkbox">Se souvenir de moi</label>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-offset-1 col-sm-10">
-						<button type="submit" class="btn btn-default">Sign in</button>
-						<a href="inscription.php"><button type="button" class="btn btn-default">inscription</button></a>
+						<button type="submit" class="btn btn-default">Connexion</button>
 					</div>
 				</form>
 				<br />
