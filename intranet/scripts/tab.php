@@ -51,7 +51,7 @@
 					</form>
 				</li>
 				<li>
-					<form method="post" action="scripts/sendMail.php">
+					<form method="post" action="scripts/facture.php">
 						<button type="submit" class="btn btn-default">
   							<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
 						</button>

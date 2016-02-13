@@ -50,7 +50,7 @@ cite {
 	text-align: right;
 	position: relative;
 	height: 200px;
-	background-image: linear-gradient(to bottom right, rgba(32, 166, 255, 0.92) 0%, #FF7B7B 100%);
+	background-image:linear-gradient(to bottom right, rgba(32, 166, 255, 0.92) 0%, #FF7B7B 100%);
 	margin: 0px;
 	box-shadow: 10px 1px 20px #888888;
 }

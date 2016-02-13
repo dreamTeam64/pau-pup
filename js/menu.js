@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
 	var isRight;
 	isRight = true;
@@ -15,3 +13,8 @@ $(document).ready(function(){
         $("#menu ul").toggle();
     });
 });
+
+$(document).ready(function(){       
+        $('#menu').parallax("center", 0, 2, true);
+        $('#wrapper').parallax("center", 200, 2, true);
+    })

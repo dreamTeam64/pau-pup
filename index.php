@@ -5,11 +5,14 @@
 <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
 	<meta charset = "utf-8"/>
 	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
+	<meta name="description" content="Création de sites sur mesure, faites nous confiance pour réaliser votre prochaine application Web !" />
+
 	<title>Pau'pup</title>
 	<link href="style.css" rel="stylesheet" type="text/css" media="all">
 	<link href="mobile.css" rel="stylesheet" type="text/css" media="all">
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
