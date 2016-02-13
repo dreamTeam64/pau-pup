@@ -53,7 +53,7 @@
 		</div>
 		<div id="wrapper">
 			<div class="section">
-				<center><h1>Prenez le temps de nous connaitre !</h1></center>
+				<center><h1>Prenez le temps de nous connaître !</h1></center>
 				<br>
 			</div>
 			<div id="membres">
@@ -96,11 +96,11 @@
 										</ul>
 									</p>
 									<p>
-										Je travail sous Unix ('OS X' & 'Debian'), j'ai pour projet de poursuivre mes études en robotique.<br>
-										En patientant je serai ravi de vous aider sur votre prochaine Application Web.
+										Je travaille sous Unix ('OS X' & 'Debian'), j'ai pour projet de poursuivre mes études en robotique.<br>
+										En attendant je serais ravi de vous aider sur votre prochaine Application Web.
 									</p>
 									<p>
-										J'ai le sens des reponsabilité et j'en tiens pour preuve mon BAFA !
+										J'ai le sens des reponsabilités que j'ai acquises en autre avec l'obtention de mon BAFA !
 									</p>
 									
 								</div>
@@ -185,7 +185,7 @@
 									Je m'occupe de la partie commerciale. J'ai travaillé dans une multinationale dont je tairais le nom qui m'a montré que la rigueur et le conseil sont indispensable à votre satisfaction.
 								</p>
 								<p>
-									Lorsque vous vous inscrirez c'est avec moi que vous aurez un entretien et qui me chargerai de votre contentement. C'est aussi ça une relation de confiance
+									Lorsque vous vous inscrirez c'est avec moi que vous aurez un entretien et qui me chargerais de votre contentement. C'est aussi ça une relation de confiance
 								</p>
 							</div>
 

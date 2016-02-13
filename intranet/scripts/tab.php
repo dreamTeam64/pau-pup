@@ -45,7 +45,15 @@
 				<li>
 					<form method="post" action="scripts/sendMail.php">
 						<button type="submit" class="btn btn-default">
-  							<span class="glyphicon glyphicon-send" aria-hidden="true"> comming soon !</span>
+  							<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+						</button>
+						<input type="hidden" name="id" value="<?php echo $donnees['id'] ?>">
+					</form>
+				</li>
+				<li>
+					<form method="post" action="scripts/sendMail.php">
+						<button type="submit" class="btn btn-default">
+  							<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
 						</button>
 						<input type="hidden" name="id" value="<?php echo $donnees['id'] ?>">
 					</form>

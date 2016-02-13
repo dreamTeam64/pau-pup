@@ -66,19 +66,19 @@
 					</ul>
 				</p>
 				<p>
-					Nous ferons ensuite une réflexion à toute l'organisation et vous validerez ou non les choix proposés. Il en dépendra de 3 exigences qui sont <b>cout</b>, <b>délai</b> et <b>qualité</b>.
+					Nous ferons ensuite une réflexion à toute l'organisation et vous validerez ou non les choix proposés. Il en dépendra de 3 exigences qui sont <b>coût</b>, <b>délai</b> et <b>qualité</b>.
 
 					
 				</p>
 
 				<h2>Arborescence du Site </h2><span class="label label-info">semaine 2</span>
 				<p>
-					Nous vous proposerons différentes arborescences élaborées durant la Deuxième semaine qui répondront aux mieux au contraintes de "périmètre".
+					Nous vous proposerons différentes arborescences élaborées durant la deuxième semaine qui répondront aux mieux au contraintes de "périmètre".
 				</p>
 
 				<h2>Maquettage </h2><span class="label label-info">semaine 3</span>
 				<p>
-					Cet à cet instant que nous définirons le placement des différents éléments sur la page (photos,textes,liens ...)
+					C'est à cet instant que nous définirons le placement des différents éléments sur la page (photos,textes,liens ...)
 				</p>
 				<h2>Charte Redactionnelle </h2><span class="label label-info">semaine 4</span>
 				<p>
@@ -94,23 +94,23 @@
 				</p>
 				<h2>Création et livraison des autres pages </h2><span class="label label-info">semaine 7</span>
 				<p>
-					Viens ensuite la création des pages annexes, puis on poffine le reste !
+					Vient ensuite la création des pages annexes, puis on peaufine le reste !
 				</p>
-				<h2>Controles et validation du site </h2><span class="label label-info">semaine 8</span>
+				<h2>Controle et validation du site </h2><span class="label label-info">semaine 8</span>
 				<p>
 					On vérifie si tout y est et si le produit correspond à vos attentes !
 				</p>
 				<h2>Intégration et tests sur différents navigateurs </h2><span class="label label-info">semaine 9</span>
 				<p>
-					Derniers petits réglage avant le levé de rideau !
+					Derniers petits réglages avant le levé de rideau !
 				</p>
 				<h2>Mise en ligne </h2><span class="label label-info">semaine 10</span>
 				<p>
-					La votre site est hébérgé et quiconque possédent le lien peut y accéder !
+					Là votre site est hébérgé et quiconque possédant le lien peut y accéder !
 				</p>
 				<h2>Référencement sur les moteurs de recherche </h2><span class="label label-info">semaine 10</span>
 				<p>
-					L'accès aux sites se fait à 99% par le biais des moteurs de recherche, il est donc capital de l'indexer chez Google, Yahoo ...
+					L'accès aux sites se fait à 99% par le biai des moteurs de recherche, il est donc capital de l'indexer chez Google, Yahoo ...
 				</p>
 
 				<center><h1>FIN</h1></center>

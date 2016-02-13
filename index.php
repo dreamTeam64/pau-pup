@@ -70,8 +70,8 @@
 				<center><h3>Nos Solutions !</h3></center>
 				<br>
 				<p>
-					L'interêt de nous choisir pour vous faire connaitre sur le Web est que nous faisons des sites léger
-					et donc rapide à charger ! Le temps c'est de l'argent et on le sait !
+					L'interêt de nous choisir pour vous faire connaitre sur le Web est que nous faisons des sites légers
+					et donc rapides à charger ! Le temps c'est de l'argent et on le sait !
 				</p>
 				<p>
 					Nous tendons à manipuler les dernières technologies pour adapter aux mieux nos solutions !
@@ -99,13 +99,13 @@
 					</div>
 				</p>
 				<p>
-					Nous hebergons nos sites sur des Raspberry. <br/>
+					Nous hebergeons nos sites sur des Raspberry. <br/>
 					<center><img src="img/rasp.png" height="100" width="100"></center>
 				</p>
 				<p>
 					Elles ont l'avantage de consommer peu et d'être puissante.
-					Vous pouvez heberger votre site vous même si vous disposer d'une connection fiable, sinon un serveur
-					peut être choisis lors de l'entretien.
+					Vous pouvez heberger votre site vous même si vous disposez d'une connection fiable, sinon un serveur
+					peut être choisit lors de l'entretien.
 				</p>
 			</div>
 			<hr color="black" width="300px">
@@ -121,7 +121,7 @@
 						<li>Organisateur d'évènements</li>
 					</ul>
 				</p>
-				<p ><b><i>Lieux</i></b></p>
+				<p ><b><i>Lieu</i></b></p>
 				<p >
 					<ul>
 						<li>Pau</li>
