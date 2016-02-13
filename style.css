@@ -4,7 +4,7 @@ body{
 }
 
 	
-p {text-indent:30px}
+p {text-indent:0px}
 
 form {padding-bottom: 30px}
 
@@ -12,6 +12,9 @@ cite {
     font-style: italic;
 }
 
+#solution{
+	text-align: center;
+}
 .slideshow{
 	width: 100px;
 	margin: auto;
@@ -99,6 +102,7 @@ cite {
 	padding-right: 25%;
 	font-size:20px;
 	font-family:proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	
 }
 
 #presentation{
@@ -111,8 +115,13 @@ cite {
 	position: relative;
 }
 
+#profileEnt ul{
+	padding: 0px;
+}
+
 #profileEnt ul li{
 	list-style: none;
+
 }
 
 

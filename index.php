@@ -55,7 +55,7 @@
 
 		<div id="wrapper">
 			<div id="presentation" class="section">
-				<center><h3>Des Services De Qualité ! </h3></center>
+				<center><h3>Création de site sur mesure ! </h3></center>
 				<br>
 				<p>
 					Qui mieux que des étudiants passionnés par leur formation peuvent mettre à profit leurs connaissances ?
@@ -125,8 +125,8 @@
 				<p >
 					<ul>
 						<li>Pau</li>
-						<li>Biarritz</li>
 						<li>Tarbes</li>
+						<li>Biarritz</li>
 					</ul>
 				</p>
 				

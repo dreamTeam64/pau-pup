@@ -66,7 +66,7 @@
 					</ul>
 				</p>
 				<p>
-					Nous ferons ensuite une réflexion à toute l'organisation et vous validerez ou non les choix proposés. Il en dépendra de 3 exigences qui sont <span class="label label-success">cout</span>, <span class="label label-success">délai</span> et <span class="label label-success">qualité</span>.
+					Nous ferons ensuite une réflexion à toute l'organisation et vous validerez ou non les choix proposés. Il en dépendra de 3 exigences qui sont <b>cout</b>, <b>délai</b> et <b>qualité</b>.
 
 					
 				</p>
