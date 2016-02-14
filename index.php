@@ -6,8 +6,8 @@
 	<meta charset = "utf-8"/>
 	<meta name="viewport" content="width=device-width, target-densitydpi=device-dpi"/>
 	<meta name="description" content="Création de sites sur mesure, faites nous confiance pour réaliser votre prochaine application Web !" />
-
-	<title>Pau'pup</title>
+	<meta name="keywords" content="paupup,pau,web,pup,internet,creation" />
+	<title>Paupup</title>
 	<link href="style.css" rel="stylesheet" type="text/css" media="all">
 	<link href="mobile.css" rel="stylesheet" type="text/css" media="all">
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -57,6 +57,7 @@
 		</div>
 
 		<div id="wrapper">
+			<div class="alert alert-warning alert-dismissible fade in" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><center>Nous vous invitons à reporter les failles de sécurité dans la page contact, nous vous en remercions !</center></div>
 			<div id="presentation" class="section">
 				<center><h3>Création de site sur mesure ! </h3></center>
 				<br>

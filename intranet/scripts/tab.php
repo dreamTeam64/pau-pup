@@ -7,7 +7,7 @@
 	}
 
 	try{
-		$bdd = new PDO('mysql:host=localhost;dbname=form','root','getht1bluray');
+		$bdd = new PDO('mysql:host=localhost;dbname=form','root','');
 	}
 	catch(Exception $e){
 		die('Erreur:'.$e->getMessage());
@@ -65,7 +65,7 @@
 		<p>	<strong>Nom: </strong><?php echo $donnees['nom'] ?></td>
 			<strong>Prénom: </strong><?php echo $donnees['prenom'] ?></td>
 			<strong>Qui est-ce ?: </strong><?php echo $donnees['raison'] ?></td></p>
-		<p>	<strong>Description:</strong><?php echo $donnees['description'] ?></p>
+			<strong>Description:</strong><pre><?php echo $donnees['description'] ?></pre>
 		<hr>
 
 		<!-- Modal -->

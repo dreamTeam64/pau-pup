@@ -1,6 +1,6 @@
 <?php
 	try{
-		$bdd = new PDO('mysql:host=localhost;dbname=intranet','root','getht1bluray');
+		$bdd = new PDO('mysql:host=localhost;dbname=intranet','root','');
 	}
 	catch(Exception $e){
 		die('Erreur:'.$e->getMessage());
