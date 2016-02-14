@@ -36,6 +36,11 @@
 			</ul>
 		</div>
 		<div id="wrapperDash">
+			<div id="WhosOnline">
+				<?php
+					include 'scripts/WhosOnline.php'; 
+				?>
+			</div>
 			<h1><span class="glyphicon glyphicon-dashboard" aria-hidden="false"> DashBoard</span></h1>
 			<hr color="blue">
 			<div id="OptDash">
