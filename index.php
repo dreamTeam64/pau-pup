@@ -27,7 +27,7 @@
 	<div id="global">
 		<div id="menu">
 			<div id="Logo">
-				<a href="index.php"><img src="img/LOGO.png"></a>
+				<a href="index.php"><img src="img/LOGO.png" alt="PauPup"></a>
 			</div>
 			
 			<span id="menuBut" class="glyphicon glyphicon-menu-hamburger"></span>
@@ -57,6 +57,7 @@
 		</div>
 
 		<div id="wrapper">
+			
 			<div class="alert alert-warning alert-dismissible fade in" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><center>Nous vous invitons à reporter les failles de sécurité dans la page contact, nous vous en remercions !</center></div>
 			<div id="presentation" class="section">
 				<center><h3>Création de site sur mesure ! </h3></center>
