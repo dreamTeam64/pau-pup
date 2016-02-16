@@ -12,6 +12,6 @@
 	    mysql_query('UPDATE connected SET timestamp=' . time() . ' WHERE ip=\'' . $_SERVER['REMOTE_ADDR'] . '\'');
 	}
 
-	mysql_query('DELETE FROM connected WHERE timestamp < ' . $timestamp_5min);
+	
 
 ?>

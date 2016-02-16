@@ -50,15 +50,30 @@
 			</nav>
 			<hr>
 			<div id="OptDash">
-				<div id="tab">
-						<?php 
-							include 'scripts/tab.php';
-						?>
-				</div>	
+				<div id="uploadPic">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							Info
+						</div>
+						<div class="panel-body">
+							Création d'un uploader de photo et affichage.
+						</div>
+					</div>
+					<form method="post" action="pgScripts/uploadPic.php" enctype="multipart/form-data">
+						<div class="form-group">
+							<label for="nomFichier">Entrez le nom de votre fichier</label><br>
+							<input type="text" name="titre" id="nomFichier"></input><br>
+							<label for="monFichier">Taille de l'image max: 1Mo</label><br>
+							<input type="file" name="nom" id="inputFile"></input><br>
+							<input type="hidden" name="sizeMax" value="1048576" /><br>
+							<input type="submit" name="submit" value="Envoyer" />
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 		<div id="footerDash">
-			
+			PlayGround V1.0
 		</div>
 	</div>
 </body>

@@ -7,6 +7,16 @@ td{
     border: 1px solid black; /* auront une bordure de 1px */
 }
 
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+form{
+	display: block;
+}
+
 #toolBar ul{
 	padding: 0px;
 	margin: 0px;
@@ -62,7 +72,7 @@ td{
 #OptDash{
 	position: relative;
 	padding: 30px;
-	text-align: right;	
+	text-align: center;	
 }
 
 #tab{
