@@ -37,7 +37,7 @@
 		</div>
 		<div id="wrapperDash">
 			<div id="WhosOnline">
-				<?php include('../WhosOnline.php'); ?>
+				<?php include('../onlineShow.php'); ?>
 			</div>
 			<h1><span class="glyphicon glyphicon-dashboard" aria-hidden="false"> DashBoard</span></h1>
 			<hr color="blue">

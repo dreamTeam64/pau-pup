@@ -1,3 +1,4 @@
+<?php include('WhosOnline.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -24,6 +25,7 @@
 	<script type="text/javascript" src="js/menu.js"></script>
 </head>
 <body>
+
 	<div id="global">
 		<div id="menu">
 			<div id="Logo">
