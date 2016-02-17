@@ -37,9 +37,7 @@
 			</ul>
 		</div>
 		<div id="wrapperDash">
-			<div id="WhosOnline">
-				
-			</div>
+			<div id="WhosOnline"></div>
 			<h1><span class="glyphicon glyphicon-dashboard" aria-hidden="false"> DashBoard</span></h1>
 			<hr>
 			<nav>
@@ -50,7 +48,20 @@
 			</nav>
 			<hr>
 			<div id="OptDash">
-				
+				<p>
+					Bonjour <?php echo "{$_SESSION['pseudo']}" ?>
+				</p>
+				<p>
+					Dernière nouveauté ! Ajoutez une photo de profile !
+				</p>
+				<form class="form-inline" action="scripts/upImg.php">
+					<div class="form-group">
+						<label class="sr-only" for="exampleInputPassword3">Fichier</label>
+						<input type="file" class="form-control" id="icone">
+						<input type="hidden" name="id" value="<?php echo "{$_SESSION['id']}" ?>">
+					</div>
+					<button type="submit" class="btn btn-default">envoyer</button>
+				</form>
 			</div>
 		</div>
 	</div>
