@@ -60,16 +60,17 @@
 						</div>
 					</div>
 					<form method="post" action="pgScripts/uploadPic.php" enctype="multipart/form-data">
-						<div class="form-group">
-							<label for="nomFichier">Entrez le nom de votre fichier</label><br>
-							<input type="text" name="titre" id="nomFichier"></input><br>
-							<label for="monFichier">Taille de l'image max: 1Mo</label><br>
-							<input type="file" name="nom" id="inputFile"></input><br>
-							<input type="hidden" name="sizeMax" value="1048576" /><br>
-							<input type="submit" name="submit" value="Envoyer" />
-						</div>
+					     <label for="icone">Icône du fichier (JPG, PNG ou GIF | max. 15 Ko) :</label><br />
+					     <input type="file" name="icone" id="icone" /><br />
+					     <input type="hidden" name="sizeMax" value="1048576" />
+					     <input type="submit" name="submit" value="Envoyer" />
 					</form>
 				</div>
+			</div>
+			<div>
+				Affichage de l'image
+
+				<img src="pgScripts/img/image.png" width="150px" height="auto">
 			</div>
 		</div>
 		<div id="footerDash">
