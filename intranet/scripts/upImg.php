@@ -2,7 +2,8 @@
 	$id = $_POST['id']; //on stock la valeur id_client.
 	$maxsize = $_POST['sizeMax'];//on impose la taille max.
 	$extensions_valides = array( 'jpg' , 'jpeg' , 'gif' , 'png' );//on gère les extensions valide pour ne pas se retrouver avec un scripts php mal intentionné.
-	
+	echo "taille de l image: {$_FILES['icone']['size']} <br>";
+		echo "nom de l'image: {$_FILES['icone']['name']} <br>";
 	//connexion à la base de donnée
 	try{
 		$bdd = new PDO('mysql:host=localhost;dbname=intranet','root','');
@@ -17,21 +18,21 @@
 	else {
 		$extension_upload = strtolower(substr(strrchr($_FILES['icone']['name'],'.'),1));//recupération de l'extension
 		if (in_array($extension_upload,$extensions_valides)){//verification de la validité de l'extension
-			chmod("img/", 0733);//verfication de pouvoir ecrire dans le fichier img/
-			$nom = "img/{$id}.{$extension_upload}";//creation d'un nom unique pour l'image qui ecrasera une precedente photo de profile du meme utilisateur
+			$nom = "../img/{$id}.{$extension_upload}";//creation d'un nom unique pour l'image qui ecrasera une precedente photo de profile du meme utilisateur
 			$resultat = move_uploaded_file($_FILES['icone']['tmp_name'],$nom);//on bouge l'image dans le fichier
-
-			$insertion = $bdd ->prepare('INSERT INTO image(id_client,path) VALUES (:id_client,:path)');
+			echo "$resultat <br>";
+			$insertion = $bdd ->prepare('INSERT INTO image(id_client,chemin) VALUES (:id_client,:chemin)');
 
 			$insertion->execute(array(
 	            'id_client' => $id,
-	            'path' => $nom,
+	            'chemin' => $nom,
 	        ));
 		} 
 		else{
 			echo "extension incorrect <br>";
+			echo "$extension_upload";
 		}
 	}
-	header('Location: ../playground.php');
-  	exit();
+	//header('Location: ../compte.php');
+  	//exit();
 ?>

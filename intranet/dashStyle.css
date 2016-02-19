@@ -17,6 +17,12 @@ form{
 	display: block;
 }
 
+#menuDash a{
+	text-decoration: none;
+	color:#FFFFFF;
+
+}
+
 #toolBar ul{
 	padding: 0px;
 	margin: 0px;
@@ -44,13 +50,12 @@ form{
 	-webkit-font-smoothing: antialiased;
 	font-size: 18px;
 	text-decoration: none;
-	background-color: #848484;
+	background-color: rgba(30, 143, 241, 0.74);
 }
 
 #menuDash{
 	position: relative;
 	text-align: right;
-	color: #00FF00;
 }
 
 #menuDash ul{
@@ -66,7 +71,17 @@ form{
 
 #wrapperDash{
 	text-align: center;
-	background-color: #848484;
+}
+
+#wrapperDash a{
+	text-decoration: none;
+	color:white;
+}
+
+#wrapperDash a:focus{
+	
+	color:white;
+	text-decoration: underline;
 }
 
 #OptDash{

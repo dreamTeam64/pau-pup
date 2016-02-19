@@ -62,7 +62,7 @@
 			
 			<div class="alert alert-warning alert-dismissible fade in" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><center>Nous vous invitons à reporter les failles de sécurité dans la page contact, nous vous en remercions !</center></div>
 			<div id="presentation" class="section">
-				<center><h3>Création de site sur mesure ! </h3></center>
+				<center><h3>Création de site sur mesure et Transition Numérique ! </h3></center>
 				<br>
 				<p>
 					Qui mieux que des étudiants passionnés par leur formation peuvent mettre à profit leurs connaissances ?

@@ -75,7 +75,7 @@
 			<div>
 				Affichage de l'image
 
-				<img src="pgScripts/img/image.png" width="150px" height="auto">
+				<img src="pgScripts/img/image.jpg" width="150px" height="auto">
 			</div>
 		</div>
 		<div id="footerDash">

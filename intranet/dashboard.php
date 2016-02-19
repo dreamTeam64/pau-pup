@@ -47,6 +47,7 @@
 				<ul>
 					<li><a href="dashboard.php">DashBoard</a></li>
 					<li><a href="playground.php">PlayGround</a></li>
+					<li><a href="#">GestionActualités</a></li>
 				</ul>
 			</nav>
 			<hr>
@@ -57,9 +58,6 @@
 						?>
 				</div>	
 			</div>
-		</div>
-		<div id="footerDash">
-			
 		</div>
 	</div>
 </body>

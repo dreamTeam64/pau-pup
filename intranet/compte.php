@@ -54,11 +54,12 @@
 				<p>
 					Dernière nouveauté ! Ajoutez une photo de profile !
 				</p>
-				<form class="form-inline" action="scripts/upImg.php">
+				<form class="form-inline" method="post" action="scripts/upImg.php" enctype="multipart/form-data">
 					<div class="form-group">
 						<label class="sr-only" for="exampleInputPassword3">Fichier</label>
-						<input type="file" class="form-control" id="icone">
+						<input type="file" class="form-control" name="icone" id="icone">
 						<input type="hidden" name="id" value="<?php echo "{$_SESSION['id']}" ?>">
+						<input type="hidden" name="sizeMax" value="1048576" />
 					</div>
 					<button type="submit" class="btn btn-default">envoyer</button>
 				</form>
