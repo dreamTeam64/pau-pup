@@ -18,8 +18,8 @@
 	else {
 		$extension_upload = strtolower(substr(strrchr($_FILES['icone']['name'],'.'),1));//recupération de l'extension
 		if (in_array($extension_upload,$extensions_valides)){//verification de la validité de l'extension
-			$nom = "../img/{$id}.{$extension_upload}";//creation d'un nom unique pour l'image qui ecrasera une precedente photo de profile du meme utilisateur
-			$resultat = move_uploaded_file($_FILES['icone']['tmp_name'],$nom);//on bouge l'image dans le fichier
+			$nom = "img/{$id}.{$extension_upload}";//creation d'un nom unique pour l'image qui ecrasera une precedente photo de profile du meme utilisateur
+			$resultat = move_uploaded_file($_FILES['icone']['tmp_name'],"../".$nom);//on bouge l'image dans le fichier
 			echo "$resultat <br>";
 			$insertion = $bdd ->prepare('INSERT INTO image(id_client,chemin) VALUES (:id_client,:chemin)');
 
