@@ -31,6 +31,16 @@
 <body>
 	<div id="global">
 		<div id="menuDash">
+			<div class="profil">
+
+				<?php 
+				echo "Bonjour {$_SESSION['pseudo']}";
+				echo "<br>";
+				include 'scripts/pictProf.php';
+				
+				?>
+
+			</div>
 			<ul>
 				<li><a href="/index.php"><span class="glyphicon glyphicon-home" aria-hidden="false"> Pau'Pup</span></a></li>
 				<li><a href="scripts/logout.php"><span class="glyphicon glyphicon-log-out" aria-hidden="false"> Deconnexion</span></a></li>

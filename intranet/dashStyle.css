@@ -17,6 +17,16 @@ form{
 	display: block;
 }
 
+.profil{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+.profil img{
+	float: left;
+}
+
 #menuDash a{
 	text-decoration: none;
 	color:#FFFFFF;
