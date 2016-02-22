@@ -7,6 +7,10 @@
 
     }
 
+    #actualite{
+    opacity: 0;
+
+    }
     #Logo img{
 	   width: 140px;
        z-index: 300;
@@ -19,7 +23,7 @@
     left: 20px;
     font-size: 60px;
 
-}
+    }
     #menu{
         height: 150px;
     }

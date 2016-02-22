@@ -31,42 +31,43 @@
 <body>
 	<div id="global">
 		<div id="menuDash">
-			<div class="profil">
-
-				<?php 
-				echo "Bonjour {$_SESSION['pseudo']}";
-				echo "<br>";
-				include 'scripts/pictProf.php';
-				
-				?>
-
-			</div>
 			<ul>
 				<li><a href="/index.php"><span class="glyphicon glyphicon-home" aria-hidden="false"> Pau'Pup</span></a></li>
 				<li><a href="scripts/logout.php"><span class="glyphicon glyphicon-log-out" aria-hidden="false"> Deconnexion</span></a></li>
-				<li><a href="compte.php"><span class="glyphicon glyphicon-wrench" aria-hidden="false"> Mon compte</span></a></li>
 			</ul>
 		</div>
 		<div id="wrapperDash">
-			<div id="WhosOnline">
-				
-			</div>
+			<div id="WhosOnline"></div>
 			<h1><span class="glyphicon glyphicon-dashboard" aria-hidden="false"> DashBoard</span></h1>
 			<hr>
 			<nav>
 				<ul>
 					<li><a href="dashboard.php">DashBoard</a></li>
 					<li><a href="playground.php">PlayGround</a></li>
-					<li><a href="actualite.php">GestionActualités</a></li>
 				</ul>
 			</nav>
 			<hr>
 			<div id="OptDash">
-				<div id="tab">
-						<?php 
-							include 'scripts/tab.php';
-						?>
-				</div>	
+				<form method="post" action="scripts/publish.php">
+					<div class="Form">
+						<label for="date">Date<font color="red">*</font></label>
+						<input type="date" name="date" class="form-control" id="inputDate" required="required" placeholder="19 févr 2016">
+					</div>
+					<br>
+					<div class="Form">
+						<label for="title">Titre<font color="red">*</font></label>
+						<input type="titre" name="titre" class="form-control" id="inputTitre" required="required" placeholder="Breaking news">
+					</div>
+					<br>
+					<div class="FormText">
+						<label for="Description">Contenu: <font color="red">*</font></label>
+						<textarea class="form-control" name="text" rows="10" required="required" placeholder="Donnez des nouvelles"></textarea>
+					</div>
+					<br>
+					<div class="Button">
+						<button type="Submit" class="btn btn-default">Publier !</button>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>

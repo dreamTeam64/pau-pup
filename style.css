@@ -12,6 +12,38 @@ cite {
     font-style: italic;
 }
 
+#actualite{
+	opacity: 1;
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	position: absolute;
+	padding-left: 5px;
+	
+
+
+}
+
+#actualite div{
+	padding-bottom: 15px;
+	border-right: solid;
+	border-right-style: dashed;
+	border-right-width: 1px;
+	border-right-color: grey;
+}
+
+
+.date{
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.titre{
+	padding-bottom: 5px;
+}
+
 #solution{
 	text-align: center;
 }
@@ -98,8 +130,8 @@ cite {
 }
 
 .section{
-	padding-left: 25%;
-	padding-right: 25%;
+	padding-left: 30%;
+	padding-right: 20%;
 	font-size:20px;
 	font-family:proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	

@@ -23,6 +23,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/slide.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/act.js"></script>
 </head>
 <body>
 
@@ -61,6 +62,11 @@
 		<div id="wrapper">
 			
 			<div class="alert alert-warning alert-dismissible fade in" role="alert"> <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><center>Nous vous invitons à reporter les failles de sécurité dans la page contact, nous vous en remercions !</center></div>
+
+			<div id="actualite">
+
+			</div>
+
 			<div id="presentation" class="section">
 				<center><h3>Création de site sur mesure et Transition Numérique ! </h3></center>
 				<br>

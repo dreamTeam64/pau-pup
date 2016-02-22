@@ -53,7 +53,6 @@ form{
 
 #global{
 	position: absolute;
-	height: 100%;
 	width: 100%;
 	background-color: white;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
@@ -81,6 +80,7 @@ form{
 
 #wrapperDash{
 	text-align: center;
+	position: relative;
 }
 
 #wrapperDash a{

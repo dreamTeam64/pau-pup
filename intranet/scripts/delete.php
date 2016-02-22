@@ -1,25 +1,10 @@
 <?php
-	session_start();
+	require 'db.class.php';
+	$DB = new DB('localhost','root','','form');
 	
-	if (!isset($_SESSION['pseudo'])) {
-		header('Location: /connexion.php');
-		exit();
-	}
-	
-	try{
-		$bdd = new PDO('mysql:host=localhost;dbname=form','root','');
-	}
-	catch(Exception $e){
-		die('Erreur:'.$e->getMessage());
-	}
-
 	$id = $_POST['id'];
-
-	$req = $bdd -> prepare('DELETE FROM contact where id = :id');
-	$req -> execute(array(
-		'id' => $id
-	));
+	$DB -> del($id,'contact');
 
 	header('Location: ../dashboard.php');
-  	exit();
+	exit;
 ?>

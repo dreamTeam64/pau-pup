@@ -33,6 +33,6 @@
 			echo "$extension_upload";
 		}
 	}
-	//header('Location: ../compte.php');
-  	//exit();
+	header('Location: ../compte.php');
+  	exit();
 ?>
