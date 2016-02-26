@@ -28,6 +28,12 @@
 			));
 		}
 
+		public function query($sql){
+			$req = $this->DB -> query($sql);
+
+			//TO BE CONTINUED
+		}
+
 		public function helloWorld(){
 			echo "hello world";
 		}

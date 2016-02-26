@@ -50,32 +50,7 @@
 			</nav>
 			<hr>
 			<div id="OptDash">
-				<div id="uploadPic">
-					<div class="panel panel-primary">
-						<div class="panel-heading">
-							Info
-						</div>
-						<div class="panel-body">
-							Création d'un uploader de photo et affichage.
-							<ul>
-								<li>Verifier taille ficher</li>
-								<li>Verifier extension fichier</li>
-								
-							</ul>
-						</div>
-					</div>
-					<form method="post" action="pgScripts/uploadPic.php" enctype="multipart/form-data">
-					     <label for="icone">Icône du fichier (JPG, PNG ou GIF | max. 15 Ko) :</label><br />
-					     <input type="file" name="icone" id="icone" /><br />
-					     <input type="hidden" name="sizeMax" value="1048576" />
-					     <input type="submit" name="submit" value="Envoyer" />
-					</form>
-				</div>
-			</div>
-			<div>
-				Affichage de l'image
-
-				<img src="pgScripts/img/image.jpg" width="150px" height="auto">
+				Caisse
 			</div>
 		</div>
 		<div id="footerDash">

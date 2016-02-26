@@ -19,6 +19,7 @@ cite {
 	width: 20%;
 	position: absolute;
 	padding-left: 5px;
+	z-index: 2;
 	
 
 
@@ -134,7 +135,7 @@ cite {
 	padding-right: 20%;
 	font-size:20px;
 	font-family:proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	
+	z-index: 1;
 }
 
 #presentation{
