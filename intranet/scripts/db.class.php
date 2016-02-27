@@ -29,13 +29,25 @@
 		}
 
 		public function query($sql){
-			$req = $this->DB -> query($sql);
+			$req = $this->db -> query("$sql");
 
-			//TO BE CONTINUED
+			while ($donnee = $req->fetch()) {
+				?>
+				<tr>
+					<td><?php echo $donnee['id'] ?></td>
+					<td><?php echo $donnee['nom'] ?></td>
+					<td><?php echo $donnee['prenom'] ?></td>
+				</tr>
+				<?php
+			}
+
+			
 		}
 
 		public function helloWorld(){
 			echo "hello world";
 		}
+
+
 	}
 ?>

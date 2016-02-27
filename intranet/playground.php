@@ -50,7 +50,22 @@
 			</nav>
 			<hr>
 			<div id="OptDash">
-				Caisse
+				<center>Test de recherche automatique grâce à Ajax !</center>
+				<input type="text" name="entree" id="recherche" onkeyup="recherche(this.value)"></input>
+				<table id="resultat"></table>
+				<script type="text/javascript">
+					function recherche(value){
+						$.ajax({
+            				url : "scripts/query.php?value="+value,
+			            	type : "GET",
+			            	success : function(html){
+			            		$('#resultat').empty(html);
+			                	$('#resultat').prepend(html);
+			            	}
+			       		 });
+					}
+
+				</script>
 			</div>
 		</div>
 		<div id="footerDash">
