@@ -30,24 +30,20 @@
 
 		public function query($sql){
 			$req = $this->db -> query("$sql");
+			$donnee = $req->fetchall();
+			return $donnee;
+		}
 
-			while ($donnee = $req->fetch()) {
-				?>
-				<tr>
-					<td><?php echo $donnee['id'] ?></td>
-					<td><?php echo $donnee['nom'] ?></td>
-					<td><?php echo $donnee['prenom'] ?></td>
-				</tr>
-				<?php
-			}
+		public function queryWithArguments($sql,$tab){
+			$req = $this->db -> prepare("$sql");
+			$req -> execute($tab);
 
-			
+			$rep = $req -> fetchall();
+			return $rep;
 		}
 
 		public function helloWorld(){
 			echo "hello world";
 		}
-
-
 	}
 ?>

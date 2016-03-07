@@ -17,6 +17,10 @@ form{
 	display: block;
 }
 
+.makeMeFlex{
+	display: flex;
+}
+
 .profil{
 	position: absolute;
 	left: 10px;

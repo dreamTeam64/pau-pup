@@ -1,26 +1,30 @@
 <?php
-	try{
-		$bdd = new PDO('mysql:host=localhost;dbname=intranet','root','');
-	}
-	catch(Exception $e){
-		die('Erreur:'.$e->getMessage());
+	require 'db.class.php';
+	$DB = new DB('localhost','root','','intranet');
+
+	$tab = array(
+		'mdp' => $_POST['mail']
+	);
+
+	$rep = $DB -> queryWithArguments('SELECT * FROM clients where mail = :mdp');
+
+	if (sizeof($rep) =! 0) {
+		if (sizeof($rep) = 1) {
+			if (crypt($_POST['mdp'],$rep['mdp'])==$rep['mdp']) {
+				session_start();
+				$_SESSION['id'] = $rep['id'];
+				$_SESSION['pseudo'] = $rep['mail'];
+				header('Location: /intranet/dashboard.php');
+				exit();
+			}else{
+				header('Location: /connexion.php?error=1');
+				exit();
+			}
+		}else{
+			die("There is more than one user");
+		}
 	}
 
-	$req = $bdd -> prepare('SELECT * FROM clients where mail = ?');
-	$req -> execute(array($_POST['mail']));
-
-	$rep = $req -> fetch();
-
-	if (crypt($_POST['mdp'],$rep['mdp'])==$rep['mdp']) {
-			session_start();
-			$_SESSION['id'] = $rep['id'];
-			$_SESSION['pseudo'] = $rep['mail'];
-			header('Location: /intranet/dashboard.php');
-			exit();
-	}
-	else{
-		header('Location: /connexion.php?error=1');
-		exit();
-	}
+	
 ?>
 

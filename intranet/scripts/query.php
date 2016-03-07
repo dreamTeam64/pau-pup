@@ -4,5 +4,15 @@
 	
 	$valeur = $_GET['value'];
 
-	$DB -> query("SELECT * FROM contact WHERE nom LIKE '%".$valeur."%' OR prenom LIKE '%".$valeur."%'");
+	$tab = $DB -> query("SELECT * FROM contact WHERE nom LIKE '%".$valeur."%' OR prenom LIKE '%".$valeur."%'");
+
+	foreach ($tab as $donnee) {
+		?>
+			<tr>
+				<td><?php echo $donnee['id'] ?></td>
+				<td><?php echo $donnee['nom'] ?></td>
+				<td><?php echo $donnee['prenom'] ?></td>
+			</tr>
+		<?php
+	}
 ?>

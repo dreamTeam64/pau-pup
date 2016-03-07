@@ -69,7 +69,7 @@
 			</div>
 		</div>
 		<div id="footerDash">
-			PlayGround V1.0
+			PlayGround V1.2Ò
 		</div>
 	</div>
 </body>

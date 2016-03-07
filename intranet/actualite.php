@@ -48,26 +48,34 @@
 			</nav>
 			<hr>
 			<div id="OptDash">
-				<form method="post" action="scripts/publish.php">
-					<div class="Form">
-						<label for="date">Date<font color="red">*</font></label>
-						<input type="date" name="date" class="form-control" id="inputDate" required="required" placeholder="19 févr 2016">
+				<div class="makeMeFlex">
+					<div id="managePost">
+						<?php include 'scripts/manageFlux.php' ?>
 					</div>
-					<br>
-					<div class="Form">
-						<label for="title">Titre<font color="red">*</font></label>
-						<input type="titre" name="titre" class="form-control" id="inputTitre" required="required" placeholder="Breaking news">
+					<div id="makePost">
+						<form method="post" action="scripts/publish.php">
+						<div class="Form">
+							<label for="date">Date<font color="red">*</font></label>
+							<input type="date" name="date" class="form-control" id="inputDate" required="required" placeholder="19 févr 2016">
+						</div>
+						<br>
+						<div class="Form">
+							<label for="title">Titre<font color="red">*</font></label>
+							<input type="titre" name="titre" class="form-control" id="inputTitre" required="required" placeholder="Breaking news">
+						</div>
+						<br>
+						<div class="FormText">
+							<label for="Description">Contenu: <font color="red">*</font></label>
+							<textarea class="form-control" name="text" rows="10" required="required" placeholder="Donnez des nouvelles"></textarea>
+						</div>
+						<br>
+						<div class="Button">
+							<button type="Submit" class="btn btn-default">Publier !</button>
+						</div>
+					</form>
 					</div>
-					<br>
-					<div class="FormText">
-						<label for="Description">Contenu: <font color="red">*</font></label>
-						<textarea class="form-control" name="text" rows="10" required="required" placeholder="Donnez des nouvelles"></textarea>
-					</div>
-					<br>
-					<div class="Button">
-						<button type="Submit" class="btn btn-default">Publier !</button>
-					</div>
-				</form>
+				</div>
+					
 			</div>
 		</div>
 	</div>

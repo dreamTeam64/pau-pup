@@ -17,11 +17,11 @@
 	$insertion = $bdd ->prepare('INSERT INTO contact(mail,nom,prenom,raison,description) VALUES (:mail,:nom,:prenom,:raison,:description) ');
 
 	$insertion->execute(array(
-            'mail' => $mail,
-            'nom' => $nom,
-            'prenom' => $prenom,
-            'raison' => $raison,
-            'description' => $description
+            'mail' => htmlspecialchars($mail),
+            'nom' => htmlspecialchars($nom),
+            'prenom' => htmlspecialchars($prenom),
+            'raison' => htmlspecialchars($raison),
+            'description' => htmlspecialchars($description)
         ));
 
 	header('Location: /contact.php?res=1');
